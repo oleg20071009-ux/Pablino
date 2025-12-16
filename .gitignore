@@ -1,0 +1,47 @@
+#Виртуальное окружение
+venv/
+.venv/
+env/
+ENV
+
+#Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache
+.coverage
+coverage.xml
+htmlcov/
+
+#VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Файлы с секретами
+.env
+.env.local
+.env.*.local
+
+# Базы данных и миграции
+*.db
+*.sqlite3
+instance/
+
+# Логи
+*.sqlite3
+instance/
+
+#Логи
+*.log
+.vscode-server/
+venv/
+__pycache__/
