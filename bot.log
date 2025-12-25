@@ -1,0 +1,106 @@
+2025-12-25 20:38:04,893 - __main__ - INFO - Ассистент успешно загружен: Bitrix24 API Assistant (id: fvtt98rs2k7jvtn7gi25)
+2025-12-25 20:38:04,995 - __main__ - INFO - Бот запущен! Нажми Ctrl+C для остановки.
+2025-12-25 20:38:05,233 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getMe "HTTP/1.1 200 OK"
+2025-12-25 20:38:05,234 - telegram.ext.Application - INFO - Application started
+2025-12-25 20:38:05,290 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/deleteWebhook "HTTP/1.1 200 OK"
+2025-12-25 20:38:15,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:38:23,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:38:24,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendMessage "HTTP/1.1 200 OK"
+2025-12-25 20:38:24,314 - __main__ - INFO - Команда /start от пользователя 1210039149
+2025-12-25 20:38:34,072 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:38:34,260 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:38:34,261 - __main__ - INFO - Сообщение от Mamin_obmanshik (id: 1210039149): Как добавить сделку в CRM Bitrix24 через API?
+2025-12-25 20:38:34,532 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendChatAction "HTTP/1.1 200 OK"
+2025-12-25 20:38:38,805 - __main__ - ERROR - Неожиданная ошибка в handle_message: 'AsyncThread' object has no attribute 'messages'
+Traceback (most recent call last):
+  File "/home/pablino/Pablino/bot.py", line 63, in handle_message
+    await thread.messages.create(role="user", content=user_message)
+          ^^^^^^^^^^^^^^^
+AttributeError: 'AsyncThread' object has no attribute 'messages'
+2025-12-25 20:38:38,889 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendMessage "HTTP/1.1 200 OK"
+2025-12-25 20:38:44,349 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:38:54,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:39:04,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:39:09,800 - __main__ - INFO - Бот остановлен пользователем
+2025-12-25 20:42:30,599 - __main__ - INFO - Ассистент успешно загружен: Bitrix24 API Assistant (id: fvtt98rs2k7jvtn7gi25)
+2025-12-25 20:42:30,710 - __main__ - INFO - Бот запущен! Нажми Ctrl+C для остановки.
+2025-12-25 20:42:30,969 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getMe "HTTP/1.1 200 OK"
+2025-12-25 20:42:30,970 - telegram.ext.Application - INFO - Application started
+2025-12-25 20:42:31,030 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/deleteWebhook "HTTP/1.1 200 OK"
+2025-12-25 20:42:41,289 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:42:42,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:42:43,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendMessage "HTTP/1.1 200 OK"
+2025-12-25 20:42:43,145 - __main__ - INFO - Команда /start от пользователя 1210039149
+2025-12-25 20:42:48,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:42:48,900 - __main__ - INFO - Сообщение от Mamin_obmanshik (id: 1210039149): Как добавить сделку в CRM Bitrix24 через API?
+2025-12-25 20:42:49,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendChatAction "HTTP/1.1 200 OK"
+2025-12-25 20:42:54,581 - __main__ - ERROR - Неожиданная ошибка в handle_message: 'async for' requires an object with __aiter__ method, got coroutine
+Traceback (most recent call last):
+  File "/home/pablino/Pablino/bot.py", line 74, in handle_message
+    async for partial in run:  # run — это async iterator (streaming)
+TypeError: 'async for' requires an object with __aiter__ method, got coroutine
+2025-12-25 20:42:54,832 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendMessage "HTTP/1.1 200 OK"
+2025-12-25 20:42:58,968 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:43:09,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:43:19,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:43:29,126 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:43:39,136 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:43:49,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:43:59,242 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:44:09,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:44:19,466 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:44:29,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:44:39,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:44:49,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:44:59,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:45:09,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:45:19,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:45:28,762 - __main__ - INFO - Бот остановлен пользователем
+2025-12-25 20:45:37,863 - __main__ - INFO - Ассистент успешно загружен: Bitrix24 API Assistant (id: fvtt98rs2k7jvtn7gi25)
+2025-12-25 20:45:37,973 - __main__ - INFO - Бот запущен! Нажми Ctrl+C для остановки.
+2025-12-25 20:45:38,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getMe "HTTP/1.1 200 OK"
+2025-12-25 20:45:38,250 - telegram.ext.Application - INFO - Application started
+2025-12-25 20:45:38,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/deleteWebhook "HTTP/1.1 200 OK"
+2025-12-25 20:45:48,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:45:58,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:46:01,882 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:46:07,716 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:46:07,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendMessage "HTTP/1.1 200 OK"
+2025-12-25 20:46:07,983 - __main__ - INFO - Команда /start от пользователя 1210039149
+2025-12-25 20:46:17,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:46:17,306 - __main__ - INFO - Сообщение от Mamin_obmanshik (id: 1210039149): Как добавить сделку в CRM Bitrix24 через API?
+2025-12-25 20:46:17,543 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendChatAction "HTTP/1.1 200 OK"
+2025-12-25 20:46:26,658 - __main__ - INFO - Успешный ответ отправлен пользователю 1210039149
+2025-12-25 20:46:26,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/sendMessage "HTTP/1.1 200 OK"
+2025-12-25 20:46:27,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:46:37,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:46:47,540 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:46:57,608 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:47:07,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:47:17,712 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:47:27,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:47:37,840 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:47:47,933 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:47:58,006 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:48:08,067 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:48:18,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:48:28,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:48:38,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:48:48,312 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:48:58,398 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:49:08,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:49:18,895 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:49:28,920 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:49:38,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:49:49,019 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:49:59,164 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:50:09,231 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:50:19,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:50:29,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:50:39,369 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:50:49,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:50:59,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:51:09,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:51:19,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:51:29,747 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8523036343:AAGBuRhpffXk6k4LQlBLxjfd8WPcBUZGoQ0/getUpdates "HTTP/1.1 200 OK"
+2025-12-25 20:51:31,856 - __main__ - INFO - Бот остановлен пользователем

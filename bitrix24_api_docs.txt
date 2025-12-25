@@ -1,0 +1,5322 @@
+Bitrix24 API Documentation - Full Reference
+
+
+
+================================================================================
+Создать новую сделку crm.deal.add
+URL: https://apidocs.bitrix24.ru/api-reference/crm/deals/crm-deal-add.html
+================================================================================
+
+Что позволяет REST API Битрикс24
+
+
+Первые шаги
+
+
+Частые кейсы и сценарии
+
+
+Локальные решения
+
+
+Библиотеки для разработки
+
+
+Настройка и использование REST
+
+
+Битрикс24 Маркетплейс
+
+
+Справочник API
+Инструменты и сценарии
+Типы данных и форматы параметров
+Скоупы методов
+Виджеты
+REST 3.0
+События
+Общие методы и события
+BIconnector
+CoPilot
+CRM
+Объекты и методы CRM
+Типы данных и структура объектов в REST API CRM
+Поля основных объектов CRM
+Частые кейсы и туториалы
+Определить текущий режим работы CRM
+Универсальные методы CRM
+Сделки
+Обзор методов
+Создать новую сделку
+Изменить сделку
+Получить сделку по Id
+Получить список сделок
+Удалить сделку
+Получить поля сделки
+Установить товары в сделку
+Получить товары сделки
+События
+Регулярные сделки
+Пользовательские поля
+Связь сделки с контактами
+Управление карточками сделок
+Виджеты
+Лиды
+Контакты
+Компании
+Коммерческие предложения
+Реквизиты
+Таймлайн и Дела
+Список обзвона
+Поиск и обработка дубликатов в CRM
+Справочники
+Валюты
+Генератор документов
+Цифровые рабочие места
+Автоматизация и триггеры
+Вспомогательные объекты
+Устаревшие методы CRM
+Получить историю движения по стадиям
+Бизнес-процессы и роботы
+Вайб
+Генератор документов
+Диск
+Задачи
+Интернет-магазин
+Календарь
+Лента новостей
+Онлайн-запись
+Опросы, голосования
+Открытые линии
+Платежные системы
+Подпись
+Пользователи
+Пользовательские соглашения
+Почтовые сервисы
+Провайдеры сообщений, СМС-провайдеры
+Рабочие группы и проекты
+Сайты и магазины
+Структура компании
+Телефония
+Торговый каталог
+Универсальные списки
+Учет рабочего времени
+Хранилище данных
+Чаты
+Чат-боты
+Устаревшие методы
+Как работать с файлами
+
+
+Инструменты и сценарии
+
+
+Типы данных и форматы параметров
+
+
+Скоупы методов
+
+
+Виджеты
+
+
+REST 3.0
+
+
+События
+
+
+Общие методы и события
+
+
+BIconnector
+
+
+CoPilot
+
+
+CRM
+Объекты и методы CRM
+Типы данных и структура объектов в REST API CRM
+Поля основных объектов CRM
+Частые кейсы и туториалы
+Определить текущий режим работы CRM
+Универсальные методы CRM
+Сделки
+Обзор методов
+Создать новую сделку
+Изменить сделку
+Получить сделку по Id
+Получить список сделок
+Удалить сделку
+Получить поля сделки
+Установить товары в сделку
+Получить товары сделки
+События
+Регулярные сделки
+Пользовательские поля
+Связь сделки с контактами
+Управление карточками сделок
+Виджеты
+Лиды
+Контакты
+Компании
+Коммерческие предложения
+Реквизиты
+Таймлайн и Дела
+Список обзвона
+Поиск и обработка дубликатов в CRM
+Справочники
+Валюты
+Генератор документов
+Цифровые рабочие места
+Автоматизация и триггеры
+Вспомогательные объекты
+Устаревшие методы CRM
+Получить историю движения по стадиям
+
+
+Объекты и методы CRM
+
+
+Типы данных и структура объектов в REST API CRM
+
+
+Поля основных объектов CRM
+
+
+Частые кейсы и туториалы
+
+
+Определить текущий режим работы CRM
+
+
+Универсальные методы CRM
+
+
+Сделки
+Обзор методов
+Создать новую сделку
+Изменить сделку
+Получить сделку по Id
+Получить список сделок
+Удалить сделку
+Получить поля сделки
+Установить товары в сделку
+Получить товары сделки
+События
+Регулярные сделки
+Пользовательские поля
+Связь сделки с контактами
+Управление карточками сделок
+Виджеты
+
+
+Обзор методов
+
+
+Создать новую сделку
+
+
+Изменить сделку
+
+
+Получить сделку по Id
+
+
+Получить список сделок
+
+
+Удалить сделку
+
+
+Получить поля сделки
+
+
+Установить товары в сделку
+
+
+Получить товары сделки
+
+
+Регулярные сделки
+
+
+Пользовательские поля
+
+
+Связь сделки с контактами
+
+
+Управление карточками сделок
+
+
+Контакты
+
+
+Компании
+
+
+Коммерческие предложения
+
+
+Реквизиты
+
+
+Таймлайн и Дела
+
+
+Список обзвона
+
+
+Поиск и обработка дубликатов в CRM
+
+
+Справочники
+
+
+Валюты
+
+
+Генератор документов
+
+
+Цифровые рабочие места
+
+
+Автоматизация и триггеры
+
+
+Вспомогательные объекты
+
+
+Устаревшие методы CRM
+
+
+Получить историю движения по стадиям
+
+
+Бизнес-процессы и роботы
+
+
+Задачи
+
+
+Интернет-магазин
+
+
+Календарь
+
+
+Лента новостей
+
+
+Онлайн-запись
+
+
+Опросы, голосования
+
+
+Открытые линии
+
+
+Платежные системы
+
+
+Подпись
+
+
+Пользователи
+
+
+Пользовательские соглашения
+
+
+Почтовые сервисы
+
+
+Провайдеры сообщений, СМС-провайдеры
+
+
+Рабочие группы и проекты
+
+
+Сайты и магазины
+
+
+Структура компании
+
+
+Телефония
+
+
+Торговый каталог
+
+
+Универсальные списки
+
+
+Учет рабочего времени
+
+
+Хранилище данных
+
+
+Чат-боты
+
+
+Устаревшие методы
+
+
+Как работать с файлами
+
+
+Лимиты REST API
+
+
+Коды ошибок
+
+
+Митапы для разработчиков
+
+
+Поддержка и коммьюнити для разработчиков
+
+
+Обратная связь
+
+
+Параметры метода
+
+
+Параметр fields
+
+
+Параметр params
+
+
+Примеры кода
+
+
+Обработка ответа
+
+
+Возвращаемые данные
+
+
+Обработка ошибок
+
+
+Возможные коды ошибок
+
+
+Статусы и коды системных ошибок
+
+
+Продолжите изучение
+
+
+Scope: crm
+
+
+Кто может выполнять метод: любой пользователь с правом «добавления» сделок
+
+
+Метод crm.deal.add создает новую сделку.
+
+
+crm.deal.add
+
+
+Название
+тип
+Описание
+fields
+object
+Объект формата:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+где:
+field_n — название поля
+value_n — значение поля
+Список доступных полей описан ниже
+params
+object
+Объект, содержащий дополнительный набор параметров (подробное описание)
+
+
+Название
+тип
+
+
+Описание
+
+
+fields
+object
+
+
+object
+
+
+Объект формата:
+
+
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+
+
+field_n — название поля
+
+
+field_n
+
+
+value_n — значение поля
+
+
+value_n
+
+
+Список доступных полей описан ниже
+
+
+params
+object
+
+
+Объект, содержащий дополнительный набор параметров (подробное описание)
+
+
+Название
+тип
+Описание
+TITLE
+string
+Название сделки.
+По умолчанию генерируется по шаблону Сделка #{id}, где id — идентификатор элемента
+TYPE_ID
+crm_status
+Строковый идентификатор типа сделки.
+Список доступных типов сделки можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: 'DEAL_TYPE' }.
+По умолчанию — первый доступный тип сделки
+CATEGORY_ID
+crm_category
+Идентификатор воронки. Обязательно больше или равен 0.
+Список доступных воронок можно узнать с помощью метода crm.category.list, передав entityTypeId = 2.
+По умолчанию — идентификатор воронки по умолчанию
+STAGE_ID
+crm_status
+Стадия сделки.
+Список доступных стадий можно узнать с помощью метода crm.status.list, применив фильтр:
+{ ENTITY_ID: "DEAL_STAGE" } — если сделка находится в общей воронке (направлении)
+{ ENTITY_ID: "DEAL_STAGE_{categoryId}" } — если сделка находится не в общей воронке, где categoryId — это идентификатор воронки сделки
+По умолчанию — первая доступная стадия относительно воронки
+IS_RECURRING
+char
+Является ли сделка шаблоном регулярной сделки. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+IS_RETURN_CUSTOMER
+char
+Является ли сделка повторной. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+IS_REPEATED_APPROACH
+char
+Является ли сделка повторным обращением. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+PROBABILITY
+integer
+Вероятность, %
+CURRENCY_ID
+crm_currency
+Валюта.
+Список доступных валют можно узнать с помощью метода crm.currency.list
+OPPORTUNITY
+double
+Сумма.
+По умолчанию 0.00
+IS_MANUAL_OPPORTUNITY
+char
+Включен ли режим ручного подсчета суммы. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+TAX_VALUE
+double
+Сумма налога.
+По умолчанию 0.00
+COMPANY_ID
+crm_company
+Идентификатор компании, привязанной к сделке.
+Список компаний можно узнать с помощью метода crm.item.list, передав entityTypeId = 4
+CONTACT_ID
+crm_contact
+Контакт. Устаревшее
+CONTACT_IDS
+crm_contact[]
+Список привязанных к сделке контактов.
+Список контактов можно узнать с помощью метода crm.item.list, передав entityTypeId = 3
+BEGINDATE
+date
+Дата начала.
+По умолчанию — дата создания сделки
+CLOSEDATE
+date
+Дата завершения.
+По умолчанию — дата создания сделки плюс 7 дней
+OPENED
+char
+Доступна ли сделка для всех. Возможные значения:
+Y — да
+N — нет
+По умолчанию Y. Значение по умолчанию может быть изменено в настройках CRM
+CLOSED
+char
+Является ли сделка закрытой. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+COMMENTS
+string
+Комментарий. Поддерживает bb-коды
+ASSIGNED_BY_ID
+user
+Ответственный.
+По умолчанию — пользователь, вызывающий данный метод
+SOURCE_ID
+crm_status
+Строковый идентификатор типа источника.
+Список доступных источников можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: "SOURCE" }.
+По умолчанию — первый доступный тип источника
+SOURCE_DESCRIPTION
+string
+Дополнительно об источнике
+ADDITIONAL_INFO
+string
+Дополнительная информация
+LOCATION_ID
+location
+Местоположение клиента. Служебное поле
+ORIGINATOR_ID
+string
+Идентификатор источника данных.
+Используется только для привязки к внешнему источнику
+ORIGIN_ID
+string
+Идентификатор элемента в источнике данных.
+Используется только для привязки к внешнему источнику
+UTM_SOURCE
+string
+Рекламная система (Google-Adwords и другие)
+UTM_MEDIUM
+string
+Тип трафика. Возможные значения:
+CPC — объявления
+CPM — баннеры
+UTM_CAMPAIGN
+string
+Обозначение рекламной кампании
+UTM_CONTENT
+string
+Содержание кампании. Например, для контекстных объявлений
+UTM_TERM
+string
+Условие поиска кампании. Например, ключевые слова контекстной рекламы
+TRACE
+string
+Информация для сквозной аналитики — подробнее читайте в статье Как передать информацию в Сквозную аналитику
+UF_CRM_...
+Пользовательские поля. Например, UF_CRM_25534736.
+В зависимости от настроек портала у сделок может быть набор пользовательских полей определенных типов.
+Добавить пользовательское поле в сделку можно с помощью метода crm.deal.userfield.add
+PARENT_ID_...
+crm_entity
+Поля связей.
+Если на портале есть смарт-процессы, связанные со сделками, для каждого такого смарт-процесса существует поле, хранящее связь между этим смарт-процессом и сделкой. Само поле хранит идентификатор элемента такого смарт-процесса.
+Например, поле PARENT_ID_153 — связь со смарт-процессом entityTypeId=153, хранит идентификатор элемента этого смарт-процесса, связанного с текущей сделкой
+
+
+TITLE
+string
+
+
+string
+
+
+Название сделки.
+
+
+По умолчанию генерируется по шаблону Сделка #{id}, где id — идентификатор элемента
+
+
+Сделка #{id}
+
+
+TYPE_ID
+crm_status
+
+
+crm_status
+
+
+Строковый идентификатор типа сделки.
+
+
+Список доступных типов сделки можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: 'DEAL_TYPE' }.
+
+
+{ ENTITY_ID: 'DEAL_TYPE' }
+
+
+По умолчанию — первый доступный тип сделки
+
+
+CATEGORY_ID
+crm_category
+
+
+crm_category
+
+
+Идентификатор воронки. Обязательно больше или равен 0.
+
+
+Список доступных воронок можно узнать с помощью метода crm.category.list, передав entityTypeId = 2.
+
+
+entityTypeId = 2
+
+
+По умолчанию — идентификатор воронки по умолчанию
+
+
+STAGE_ID
+crm_status
+
+
+Стадия сделки.
+
+
+Список доступных стадий можно узнать с помощью метода crm.status.list, применив фильтр:
+
+
+{ ENTITY_ID: "DEAL_STAGE" } — если сделка находится в общей воронке (направлении)
+
+
+{ ENTITY_ID: "DEAL_STAGE" }
+
+
+{ ENTITY_ID: "DEAL_STAGE_{categoryId}" } — если сделка находится не в общей воронке, где categoryId — это идентификатор воронки сделки
+
+
+{ ENTITY_ID: "DEAL_STAGE_{categoryId}" }
+
+
+categoryId
+
+
+По умолчанию — первая доступная стадия относительно воронки
+
+
+IS_RECURRING
+char
+
+
+Является ли сделка шаблоном регулярной сделки. Возможные значения:
+
+
+Y — да
+
+
+N — нет
+
+
+По умолчанию N
+
+
+IS_RETURN_CUSTOMER
+char
+
+
+Является ли сделка повторной. Возможные значения:
+
+
+IS_REPEATED_APPROACH
+char
+
+
+Является ли сделка повторным обращением. Возможные значения:
+
+
+PROBABILITY
+integer
+
+
+integer
+
+
+Вероятность, %
+
+
+CURRENCY_ID
+crm_currency
+
+
+crm_currency
+
+
+Валюта.
+
+
+Список доступных валют можно узнать с помощью метода crm.currency.list
+
+
+OPPORTUNITY
+double
+
+
+double
+
+
+Сумма.
+
+
+По умолчанию 0.00
+
+
+IS_MANUAL_OPPORTUNITY
+char
+
+
+Включен ли режим ручного подсчета суммы. Возможные значения:
+
+
+TAX_VALUE
+double
+
+
+Сумма налога.
+
+
+COMPANY_ID
+crm_company
+
+
+crm_company
+
+
+Идентификатор компании, привязанной к сделке.
+
+
+Список компаний можно узнать с помощью метода crm.item.list, передав entityTypeId = 4
+
+
+entityTypeId = 4
+
+
+CONTACT_ID
+crm_contact
+
+
+crm_contact
+
+
+Контакт. Устаревшее
+
+
+CONTACT_IDS
+crm_contact[]
+
+
+crm_contact[]
+
+
+Список привязанных к сделке контактов.
+
+
+Список контактов можно узнать с помощью метода crm.item.list, передав entityTypeId = 3
+
+
+entityTypeId = 3
+
+
+BEGINDATE
+date
+
+
+Дата начала.
+
+
+По умолчанию — дата создания сделки
+
+
+CLOSEDATE
+date
+
+
+Дата завершения.
+
+
+По умолчанию — дата создания сделки плюс 7 дней
+
+
+OPENED
+char
+
+
+Доступна ли сделка для всех. Возможные значения:
+
+
+По умолчанию Y. Значение по умолчанию может быть изменено в настройках CRM
+
+
+CLOSED
+char
+
+
+Является ли сделка закрытой. Возможные значения:
+
+
+COMMENTS
+string
+
+
+Комментарий. Поддерживает bb-коды
+
+
+ASSIGNED_BY_ID
+user
+
+
+Ответственный.
+
+
+По умолчанию — пользователь, вызывающий данный метод
+
+
+SOURCE_ID
+crm_status
+
+
+Строковый идентификатор типа источника.
+
+
+Список доступных источников можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: "SOURCE" }.
+
+
+{ ENTITY_ID: "SOURCE" }
+
+
+По умолчанию — первый доступный тип источника
+
+
+SOURCE_DESCRIPTION
+string
+
+
+Дополнительно об источнике
+
+
+ADDITIONAL_INFO
+string
+
+
+Дополнительная информация
+
+
+LOCATION_ID
+location
+
+
+location
+
+
+Местоположение клиента. Служебное поле
+
+
+ORIGINATOR_ID
+string
+
+
+Идентификатор источника данных.
+
+
+Используется только для привязки к внешнему источнику
+
+
+ORIGIN_ID
+string
+
+
+Идентификатор элемента в источнике данных.
+
+
+UTM_SOURCE
+string
+
+
+Рекламная система (Google-Adwords и другие)
+
+
+UTM_MEDIUM
+string
+
+
+Тип трафика. Возможные значения:
+
+
+CPC — объявления
+
+
+CPM — баннеры
+
+
+UTM_CAMPAIGN
+string
+
+
+Обозначение рекламной кампании
+
+
+UTM_CONTENT
+string
+
+
+Содержание кампании. Например, для контекстных объявлений
+
+
+UTM_TERM
+string
+
+
+Условие поиска кампании. Например, ключевые слова контекстной рекламы
+
+
+TRACE
+string
+
+
+Информация для сквозной аналитики — подробнее читайте в статье Как передать информацию в Сквозную аналитику
+
+
+UF_CRM_...
+
+
+Пользовательские поля. Например, UF_CRM_25534736.
+
+
+UF_CRM_25534736
+
+
+В зависимости от настроек портала у сделок может быть набор пользовательских полей определенных типов.
+
+
+Добавить пользовательское поле в сделку можно с помощью метода crm.deal.userfield.add
+
+
+PARENT_ID_...
+crm_entity
+
+
+crm_entity
+
+
+Поля связей.
+
+
+Если на портале есть смарт-процессы, связанные со сделками, для каждого такого смарт-процесса существует поле, хранящее связь между этим смарт-процессом и сделкой. Само поле хранит идентификатор элемента такого смарт-процесса.
+
+
+Например, поле PARENT_ID_153 — связь со смарт-процессом entityTypeId=153, хранит идентификатор элемента этого смарт-процесса, связанного с текущей сделкой
+
+
+PARENT_ID_153
+
+
+entityTypeId=153
+
+
+Название
+тип
+Описание
+REGISTER_SONET_EVENT
+boolean
+Зарегистрировать ли событие добавления сделки в живой ленте. Возможные значения:
+Y — да
+N — нет
+По умолчанию Y
+
+
+REGISTER_SONET_EVENT
+boolean
+
+
+boolean
+
+
+Зарегистрировать ли событие добавления сделки в живой ленте. Возможные значения:
+
+
+По умолчанию Y
+
+
+Как использовать примеры в документации
+
+
+curl -X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-d '{"FIELDS":{"TITLE":"Новая сделка #1","TYPE_ID":"COMPLEX","CATEGORY_ID":0,"STAGE_ID":"PREPARATION","IS_RECURRING":"N","IS_RETURN_CUSTOMER":"Y","IS_REPEATED_APPROACH":"Y","PROBABILITY":99,"CURRENCY_ID":"EUR","OPPORTUNITY":1000000,"IS_MANUAL_OPPORTUNITY":"Y","TAX_VALUE":0.10,"COMPANY_ID":9,"CONTACT_IDS":[84,83],"BEGINDATE":"'"$(date --iso-8601=seconds)"'","CLOSEDATE":"'"$(date --iso-8601=seconds --date='+10 days')"'", "OPENED":"Y","CLOSED":"N","COMMENTS":"Пример комментария","SOURCE_ID":"CALLBACK","SOURCE_DESCRIPTION":"Дополнительно об источнике","ADDITIONAL_INFO":"Дополнительная информация","UTM_SOURCE":"google","UTM_MEDIUM":"CPC","PARENT_ID_1220":22,"UF_CRM_1721244482250":"Привет мир!"},"PARAMS":{"REGISTER_SONET_EVENT":"N"}}' \
+https://**put_your_bitrix24_address**/rest/**put_your_user_id_here**/**put_your_webbhook_here**/crm.deal.add
+
+
+HTTP-статус: 200
+
+
+{
+    "result": 394,
+    "time": {
+        "start": 1725013197.635808,
+        "finish": 1725013198.580873,
+        "duration": 0.9450650215148926,
+        "processing": 0.6822988986968994,
+        "date_start": "2024-08-30T12:19:57+02:00",
+        "date_finish": "2024-08-30T12:19:58+02:00",
+        "operating": 0
+    }
+}
+
+
+Название
+тип
+Описание
+result
+integer
+Корневой элемент ответа, содержит идентификатор созданной сделки
+time
+time
+Информация о времени выполнения запроса
+
+
+result
+integer
+
+
+Корневой элемент ответа, содержит идентификатор созданной сделки
+
+
+time
+time
+
+
+Информация о времени выполнения запроса
+
+
+HTTP-статус: 400
+
+
+{
+    "error": "",
+    "error_description": "Parameter 'fields' must be array."
+}
+
+
+Название
+тип
+Описание
+error
+string
+Строковый код ошибки. Может состоять из цифр, латинских букв и знака подчеркивания
+error_description
+error_description
+Текстовое описание ошибки. Описание не предназначено для показа конечному пользователю в необработанном виде
+
+
+error
+string
+
+
+Строковый код ошибки. Может состоять из цифр, латинских букв и знака подчеркивания
+
+
+error_description
+error_description
+
+
+error_description
+
+
+Текстовое описание ошибки. Описание не предназначено для показа конечному пользователю в необработанном виде
+
+
+Код
+Описание
+Значение
+-
+Parameter 'fields' must be array
+В параметр fields передан не объект
+-
+Parameter 'params' must be array
+В Параметр params передан не объект
+-
+Access denied
+У пользователя нет прав на «добавление» сделок
+-
+Исчерпан выделенный дисковый ресурс
+-
+Неверное значение поля «Валюта»
+
+
+Значение
+
+
+Parameter 'fields' must be array
+
+
+В параметр fields передан не объект
+
+
+fields
+
+
+Parameter 'params' must be array
+
+
+В Параметр params передан не объект
+
+
+params
+
+
+Access denied
+
+
+У пользователя нет прав на «добавление» сделок
+
+
+Исчерпан выделенный дисковый ресурс
+
+
+Неверное значение поля «Валюта»
+
+
+HTTP-статус: 20х, 40x, 50x
+
+
+Описанные ниже ошибки могут возникнуть при вызове любого метода
+
+
+Статус
+Код
+Текст ошибки
+Описание
+500
+INTERNAL_SERVER_ERROR
+Internal server error
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+500
+ERROR_UNEXPECTED_ANSWER
+Server returned an unexpected response
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+503
+QUERY_LIMIT_EXCEEDED
+Too many requests
+Превышен лимит на интенсивность запросов
+405
+ERROR_BATCH_METHOD_NOT_ALLOWED
+Method is not allowed for batch usage
+Текущий метод не разрешен для вызове с помощью batch
+400
+ERROR_BATCH_LENGTH_EXCEEDED
+Max batch length exceeded
+Превышена максимальная длина параметров, переданных в метод batch
+401
+NO_AUTH_FOUND
+Wrong authorization data
+Неверный access-токен или код вебхука
+400
+INVALID_REQUEST
+Https required
+Для вызовов методов требуется использовать протокол HTTPS
+503
+OVERLOAD_LIMIT
+REST API is blocked due to overload
+REST API заблокирован из-за перегрузки. Это ручная индивидуальная блокировка, для снятия необходимо обращаться в техническую поддержку Битрикс24
+403
+ACCESS_DENIED
+REST API is available only on commercial plans
+REST API доступен только на коммерческих планах
+403
+INVALID_CREDENTIALS
+Invalid request credentials
+У пользователя, с чьим access-токеном или вебхуком был вызван метод, не хватает прав
+404
+ERROR_MANIFEST_IS_NOT_AVAILABLE
+Manifest is not available
+Манифест недоступен
+403
+insufficient_scope
+The request requires higher privileges than provided by the webhook token
+Запрос требует более высоких привилегий, чем предоставляет токен веб-хука
+401
+expired_token
+The access token provided has expired
+Предоставленный access-токен доступа истек
+403
+user_access_error
+The user does not have access to the application
+Пользователь не имеет доступа к приложению. Это означает, что приложение установлено, но администратор портала разрешил доступ к этому приложению только конкретным пользователям
+500
+PORTAL_DELETED
+Portal was deleted
+Публичная часть сайта закрыта. Чтобы открыть публичную часть сайта на коробочной установке отключите опцию «Временное закрытие публичной части сайта». Путь к настройке: Рабочий стол > Настройки > Настройки продукта > Настройки модулей > Главный модуль > Временное закрытие публичной части сайта
+
+
+Статус
+
+
+Код
+Текст ошибки
+
+
+INTERNAL_SERVER_ERROR
+Internal server error
+
+
+INTERNAL_SERVER_ERROR
+
+
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+
+
+ERROR_UNEXPECTED_ANSWER
+Server returned an unexpected response
+
+
+ERROR_UNEXPECTED_ANSWER
+
+
+QUERY_LIMIT_EXCEEDED
+Too many requests
+
+
+QUERY_LIMIT_EXCEEDED
+
+
+Превышен лимит на интенсивность запросов
+
+
+ERROR_BATCH_METHOD_NOT_ALLOWED
+Method is not allowed for batch usage
+
+
+ERROR_BATCH_METHOD_NOT_ALLOWED
+
+
+Текущий метод не разрешен для вызове с помощью batch
+
+
+ERROR_BATCH_LENGTH_EXCEEDED
+Max batch length exceeded
+
+
+ERROR_BATCH_LENGTH_EXCEEDED
+
+
+Превышена максимальная длина параметров, переданных в метод batch
+
+
+NO_AUTH_FOUND
+Wrong authorization data
+
+
+NO_AUTH_FOUND
+
+
+Неверный access-токен или код вебхука
+
+
+INVALID_REQUEST
+Https required
+
+
+INVALID_REQUEST
+
+
+Для вызовов методов требуется использовать протокол HTTPS
+
+
+OVERLOAD_LIMIT
+REST API is blocked due to overload
+
+
+OVERLOAD_LIMIT
+
+
+REST API заблокирован из-за перегрузки. Это ручная индивидуальная блокировка, для снятия необходимо обращаться в техническую поддержку Битрикс24
+
+
+ACCESS_DENIED
+REST API is available only on commercial plans
+
+
+ACCESS_DENIED
+
+
+REST API доступен только на коммерческих планах
+
+
+INVALID_CREDENTIALS
+Invalid request credentials
+
+
+INVALID_CREDENTIALS
+
+
+У пользователя, с чьим access-токеном или вебхуком был вызван метод, не хватает прав
+
+
+ERROR_MANIFEST_IS_NOT_AVAILABLE
+Manifest is not available
+
+
+ERROR_MANIFEST_IS_NOT_AVAILABLE
+
+
+Манифест недоступен
+
+
+insufficient_scope
+The request requires higher privileges than provided by the webhook token
+
+
+insufficient_scope
+
+
+Запрос требует более высоких привилегий, чем предоставляет токен веб-хука
+
+
+expired_token
+The access token provided has expired
+
+
+expired_token
+
+
+Предоставленный access-токен доступа истек
+
+
+user_access_error
+The user does not have access to the application
+
+
+user_access_error
+
+
+Пользователь не имеет доступа к приложению. Это означает, что приложение установлено, но администратор портала разрешил доступ к этому приложению только конкретным пользователям
+
+
+PORTAL_DELETED
+Portal was deleted
+
+
+PORTAL_DELETED
+
+
+Публичная часть сайта закрыта. Чтобы открыть публичную часть сайта на коробочной установке отключите опцию «Временное закрытие публичной части сайта». Путь к настройке: Рабочий стол > Настройки > Настройки продукта > Настройки модулей > Главный модуль > Временное закрытие публичной части сайта
+
+
+Изменить сделку crm.deal.update
+
+
+Получить сделку по Id crm.deal.get
+
+
+Получить список сделок crm.deal.list
+
+
+Удалить сделку crm.deal.delete
+
+
+Получить поля сделки crm.deal.fields
+
+
+Добавить сделку и компанию с реквизитами
+
+
+Название
+тип
+Описание
+fields
+object
+Объект формата:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+где:
+field_n — название поля
+value_n — значение поля
+Список доступных полей описан ниже
+params
+object
+Объект, содержащий дополнительный набор параметров (подробное описание)
+
+
+Название
+тип
+Описание
+TITLE
+string
+Название сделки.
+По умолчанию генерируется по шаблону Сделка #{id}, где id — идентификатор элемента
+TYPE_ID
+crm_status
+Строковый идентификатор типа сделки.
+Список доступных типов сделки можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: 'DEAL_TYPE' }.
+По умолчанию — первый доступный тип сделки
+CATEGORY_ID
+crm_category
+Идентификатор воронки. Обязательно больше или равен 0.
+Список доступных воронок можно узнать с помощью метода crm.category.list, передав entityTypeId = 2.
+По умолчанию — идентификатор воронки по умолчанию
+STAGE_ID
+crm_status
+Стадия сделки.
+Список доступных стадий можно узнать с помощью метода crm.status.list, применив фильтр:
+{ ENTITY_ID: "DEAL_STAGE" } — если сделка находится в общей воронке (направлении)
+{ ENTITY_ID: "DEAL_STAGE_{categoryId}" } — если сделка находится не в общей воронке, где categoryId — это идентификатор воронки сделки
+По умолчанию — первая доступная стадия относительно воронки
+IS_RECURRING
+char
+Является ли сделка шаблоном регулярной сделки. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+IS_RETURN_CUSTOMER
+char
+Является ли сделка повторной. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+IS_REPEATED_APPROACH
+char
+Является ли сделка повторным обращением. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+PROBABILITY
+integer
+Вероятность, %
+CURRENCY_ID
+crm_currency
+Валюта.
+Список доступных валют можно узнать с помощью метода crm.currency.list
+OPPORTUNITY
+double
+Сумма.
+По умолчанию 0.00
+IS_MANUAL_OPPORTUNITY
+char
+Включен ли режим ручного подсчета суммы. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+TAX_VALUE
+double
+Сумма налога.
+По умолчанию 0.00
+COMPANY_ID
+crm_company
+Идентификатор компании, привязанной к сделке.
+Список компаний можно узнать с помощью метода crm.item.list, передав entityTypeId = 4
+CONTACT_ID
+crm_contact
+Контакт. Устаревшее
+CONTACT_IDS
+crm_contact[]
+Список привязанных к сделке контактов.
+Список контактов можно узнать с помощью метода crm.item.list, передав entityTypeId = 3
+BEGINDATE
+date
+Дата начала.
+По умолчанию — дата создания сделки
+CLOSEDATE
+date
+Дата завершения.
+По умолчанию — дата создания сделки плюс 7 дней
+OPENED
+char
+Доступна ли сделка для всех. Возможные значения:
+Y — да
+N — нет
+По умолчанию Y. Значение по умолчанию может быть изменено в настройках CRM
+CLOSED
+char
+Является ли сделка закрытой. Возможные значения:
+Y — да
+N — нет
+По умолчанию N
+COMMENTS
+string
+Комментарий. Поддерживает bb-коды
+ASSIGNED_BY_ID
+user
+Ответственный.
+По умолчанию — пользователь, вызывающий данный метод
+SOURCE_ID
+crm_status
+Строковый идентификатор типа источника.
+Список доступных источников можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: "SOURCE" }.
+По умолчанию — первый доступный тип источника
+SOURCE_DESCRIPTION
+string
+Дополнительно об источнике
+ADDITIONAL_INFO
+string
+Дополнительная информация
+LOCATION_ID
+location
+Местоположение клиента. Служебное поле
+ORIGINATOR_ID
+string
+Идентификатор источника данных.
+Используется только для привязки к внешнему источнику
+ORIGIN_ID
+string
+Идентификатор элемента в источнике данных.
+Используется только для привязки к внешнему источнику
+UTM_SOURCE
+string
+Рекламная система (Google-Adwords и другие)
+UTM_MEDIUM
+string
+Тип трафика. Возможные значения:
+CPC — объявления
+CPM — баннеры
+UTM_CAMPAIGN
+string
+Обозначение рекламной кампании
+UTM_CONTENT
+string
+Содержание кампании. Например, для контекстных объявлений
+UTM_TERM
+string
+Условие поиска кампании. Например, ключевые слова контекстной рекламы
+TRACE
+string
+Информация для сквозной аналитики — подробнее читайте в статье Как передать информацию в Сквозную аналитику
+UF_CRM_...
+Пользовательские поля. Например, UF_CRM_25534736.
+В зависимости от настроек портала у сделок может быть набор пользовательских полей определенных типов.
+Добавить пользовательское поле в сделку можно с помощью метода crm.deal.userfield.add
+PARENT_ID_...
+crm_entity
+Поля связей.
+Если на портале есть смарт-процессы, связанные со сделками, для каждого такого смарт-процесса существует поле, хранящее связь между этим смарт-процессом и сделкой. Само поле хранит идентификатор элемента такого смарт-процесса.
+Например, поле PARENT_ID_153 — связь со смарт-процессом entityTypeId=153, хранит идентификатор элемента этого смарт-процесса, связанного с текущей сделкой
+
+
+Название
+тип
+Описание
+REGISTER_SONET_EVENT
+boolean
+Зарегистрировать ли событие добавления сделки в живой ленте. Возможные значения:
+Y — да
+N — нет
+По умолчанию Y
+
+
+Название
+тип
+Описание
+result
+integer
+Корневой элемент ответа, содержит идентификатор созданной сделки
+time
+time
+Информация о времени выполнения запроса
+
+
+Название
+тип
+Описание
+error
+string
+Строковый код ошибки. Может состоять из цифр, латинских букв и знака подчеркивания
+error_description
+error_description
+Текстовое описание ошибки. Описание не предназначено для показа конечному пользователю в необработанном виде
+
+
+Код
+Описание
+Значение
+-
+Parameter 'fields' must be array
+В параметр fields передан не объект
+-
+Parameter 'params' must be array
+В Параметр params передан не объект
+-
+Access denied
+У пользователя нет прав на «добавление» сделок
+-
+Исчерпан выделенный дисковый ресурс
+-
+Неверное значение поля «Валюта»
+
+
+Статус
+Код
+Текст ошибки
+Описание
+500
+INTERNAL_SERVER_ERROR
+Internal server error
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+500
+ERROR_UNEXPECTED_ANSWER
+Server returned an unexpected response
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+503
+QUERY_LIMIT_EXCEEDED
+Too many requests
+Превышен лимит на интенсивность запросов
+405
+ERROR_BATCH_METHOD_NOT_ALLOWED
+Method is not allowed for batch usage
+Текущий метод не разрешен для вызове с помощью batch
+400
+ERROR_BATCH_LENGTH_EXCEEDED
+Max batch length exceeded
+Превышена максимальная длина параметров, переданных в метод batch
+401
+NO_AUTH_FOUND
+Wrong authorization data
+Неверный access-токен или код вебхука
+400
+INVALID_REQUEST
+Https required
+Для вызовов методов требуется использовать протокол HTTPS
+503
+OVERLOAD_LIMIT
+REST API is blocked due to overload
+REST API заблокирован из-за перегрузки. Это ручная индивидуальная блокировка, для снятия необходимо обращаться в техническую поддержку Битрикс24
+403
+ACCESS_DENIED
+REST API is available only on commercial plans
+REST API доступен только на коммерческих планах
+403
+INVALID_CREDENTIALS
+Invalid request credentials
+У пользователя, с чьим access-токеном или вебхуком был вызван метод, не хватает прав
+404
+ERROR_MANIFEST_IS_NOT_AVAILABLE
+Manifest is not available
+Манифест недоступен
+403
+insufficient_scope
+The request requires higher privileges than provided by the webhook token
+Запрос требует более высоких привилегий, чем предоставляет токен веб-хука
+401
+expired_token
+The access token provided has expired
+Предоставленный access-токен доступа истек
+403
+user_access_error
+The user does not have access to the application
+Пользователь не имеет доступа к приложению. Это означает, что приложение установлено, но администратор портала разрешил доступ к этому приложению только конкретным пользователям
+500
+PORTAL_DELETED
+Portal was deleted
+Публичная часть сайта закрыта. Чтобы открыть публичную часть сайта на коробочной установке отключите опцию «Временное закрытие публичной части сайта». Путь к настройке: Рабочий стол > Настройки > Настройки продукта > Настройки модулей > Главный модуль > Временное закрытие публичной части сайта
+
+
+
+================================================================================
+Получить поля сделки crm.deal.fields
+URL: https://apidocs.bitrix24.ru/api-reference/crm/deals/crm-deal-fields.html
+================================================================================
+
+Кто может выполнять метод: любой пользователь
+
+
+Метод crm.deal.fields возвращает описание полей сделки, в том числе пользовательских.
+Таблицу с описанием стандартных полей можно найти в статье Поля основных объектов CRM.
+
+
+crm.deal.fields
+
+
+Без параметров.
+
+
+curl -X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-d '{}' \
+https://**put_your_bitrix24_address**/rest/**put_your_user_id_here**/**put_your_webbhook_here**/crm.deal.fields
+
+
+{
+    "result": {
+        "ID": {
+            "type": "integer",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "ID"
+        },
+        "TITLE": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Название"
+        },
+        "TYPE_ID": {
+            "type": "crm_status",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "statusType": "DEAL_TYPE",
+            "title": "Тип"
+        },
+        "CATEGORY_ID": {
+            "type": "crm_category",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": true,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Воронка"
+        },
+        "STAGE_ID": {
+            "type": "crm_status",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "statusType": "DEAL_STAGE",
+            "title": "Стадия сделки"
+        },
+        "STAGE_SEMANTIC_ID": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Группа стадии"
+        },
+        "IS_NEW": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Новая сделка"
+        },
+        "IS_RECURRING": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Регулярная сделка"
+        },
+        "IS_RETURN_CUSTOMER": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Повторная сделка"
+        },
+        "IS_REPEATED_APPROACH": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Повторное обращение"
+        },
+        "PROBABILITY": {
+            "type": "integer",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Вероятность"
+        },
+        "CURRENCY_ID": {
+            "type": "crm_currency",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Валюта"
+        },
+        "OPPORTUNITY": {
+            "type": "double",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Сумма"
+        },
+        "IS_MANUAL_OPPORTUNITY": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "IS_MANUAL_OPPORTUNITY"
+        },
+        "TAX_VALUE": {
+            "type": "double",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Ставка налога"
+        },
+        "COMPANY_ID": {
+            "type": "crm_company",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Компания",
+            "settings": {
+                "parentEntityTypeId": 4
+            }
+        },
+        "CONTACT_ID": {
+            "type": "crm_contact",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "isDeprecated": true,
+            "title": "Контакт"
+        },
+        "CONTACT_IDS": {
+            "type": "crm_contact",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": true,
+            "isDynamic": false,
+            "title": "Контакты"
+        },
+        "QUOTE_ID": {
+            "type": "crm_quote",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Предложение",
+            "settings": {
+                "parentEntityTypeId": 7
+            }
+        },
+        "BEGINDATE": {
+            "type": "date",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Дата начала"
+        },
+        "CLOSEDATE": {
+            "type": "date",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Дата завершения"
+        },
+        "OPENED": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Доступна для всех"
+        },
+        "CLOSED": {
+            "type": "char",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Закрыта"
+        },
+        "COMMENTS": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Комментарий"
+        },
+        "ASSIGNED_BY_ID": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Ответственный"
+        },
+        "CREATED_BY_ID": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Кем создана"
+        },
+        "MODIFY_BY_ID": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Кем изменена"
+        },
+        "MOVED_BY_ID": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "MOVED_BY_ID"
+        },
+        "DATE_CREATE": {
+            "type": "datetime",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Дата создания"
+        },
+        "DATE_MODIFY": {
+            "type": "datetime",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Дата изменения"
+        },
+        "MOVED_TIME": {
+            "type": "datetime",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "MOVED_TIME"
+        },
+        "SOURCE_ID": {
+            "type": "crm_status",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "statusType": "SOURCE",
+            "title": "Источник"
+        },
+        "SOURCE_DESCRIPTION": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Дополнительно об источнике"
+        },
+        "LEAD_ID": {
+            "type": "crm_lead",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Лид",
+            "settings": {
+                "parentEntityTypeId": 1
+            }
+        },
+        "ADDITIONAL_INFO": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Дополнительная информация"
+        },
+        "LOCATION_ID": {
+            "type": "location",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Местоположение"
+        },
+        "ORIGINATOR_ID": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Внешний источник"
+        },
+        "ORIGIN_ID": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Идентификатор элемента во внешнем источнике"
+        },
+        "UTM_SOURCE": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Рекламная система"
+        },
+        "UTM_MEDIUM": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Тип трафика"
+        },
+        "UTM_CAMPAIGN": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Обозначение рекламной кампании"
+        },
+        "UTM_CONTENT": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Содержание кампании"
+        },
+        "UTM_TERM": {
+            "type": "string",
+            "isRequired": false,
+            "isReadOnly": false,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "Условие поиска кампании"
+        },
+        "LAST_ACTIVITY_TIME": {
+            "type": "datetime",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "LAST_ACTIVITY_TIME"
+        },
+        "LAST_ACTIVITY_BY": {
+            "type": "user",
+            "isRequired": false,
+            "isReadOnly": true,
+            "isImmutable": false,
+            "isMultiple": false,
+            "isDynamic": false,
+            "title": "LAST_ACTIVITY_BY"
+        }
+    },
+    "time": {
+        "start": 1724857659.824873,
+        "finish": 1724857660.790877,
+        "duration": 0.9660041332244873,
+        "processing": 0.3691408634185791,
+        "date_start": "2024-08-28T17:07:39+02:00",
+        "date_finish": "2024-08-28T17:07:40+02:00",
+        "operating": 0
+    }
+}
+
+
+Название
+тип
+Описание
+result
+object
+Объект в формате:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...
+    field_n: value_n,
+}
+где:
+field_n — поле сделки
+value_n — информация о поле в формате crm_rest_field_description
+time
+time
+Информация о времени выполнения запроса
+
+
+result
+object
+
+
+Объект в формате:
+
+
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...
+    field_n: value_n,
+}
+
+
+field_n — поле сделки
+
+
+value_n — информация о поле в формате crm_rest_field_description
+
+
+Метод не возвращает ошибки.
+
+
+Создать новую сделку crm.deal.add
+
+
+Название
+тип
+Описание
+result
+object
+Объект в формате:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...
+    field_n: value_n,
+}
+где:
+field_n — поле сделки
+value_n — информация о поле в формате crm_rest_field_description
+time
+time
+Информация о времени выполнения запроса
+
+
+Статус
+Код
+Текст ошибки
+Описание
+500
+INTERNAL_SERVER_ERROR
+Internal server error
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+500
+ERROR_UNEXPECTED_ANSWER
+Server returned an unexpected response
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+503
+QUERY_LIMIT_EXCEEDED
+Too many requests
+Превышен лимит на интенсивность запросов
+405
+ERROR_BATCH_METHOD_NOT_ALLOWED
+Method is not allowed for batch usage
+Текущий метод не разрешен для вызове с помощью batch
+400
+ERROR_BATCH_LENGTH_EXCEEDED
+Max batch length exceeded
+Превышена максимальная длина параметров, переданных в метод batch
+401
+NO_AUTH_FOUND
+Wrong authorization data
+Неверный access-токен или код вебхука
+400
+INVALID_REQUEST
+Https required
+Для вызовов методов требуется использовать протокол HTTPS
+503
+OVERLOAD_LIMIT
+REST API is blocked due to overload
+REST API заблокирован из-за перегрузки. Это ручная индивидуальная блокировка, для снятия необходимо обращаться в техническую поддержку Битрикс24
+403
+ACCESS_DENIED
+REST API is available only on commercial plans
+REST API доступен только на коммерческих планах
+403
+INVALID_CREDENTIALS
+Invalid request credentials
+У пользователя, с чьим access-токеном или вебхуком был вызван метод, не хватает прав
+404
+ERROR_MANIFEST_IS_NOT_AVAILABLE
+Manifest is not available
+Манифест недоступен
+403
+insufficient_scope
+The request requires higher privileges than provided by the webhook token
+Запрос требует более высоких привилегий, чем предоставляет токен веб-хука
+401
+expired_token
+The access token provided has expired
+Предоставленный access-токен доступа истек
+403
+user_access_error
+The user does not have access to the application
+Пользователь не имеет доступа к приложению. Это означает, что приложение установлено, но администратор портала разрешил доступ к этому приложению только конкретным пользователям
+500
+PORTAL_DELETED
+Portal was deleted
+Публичная часть сайта закрыта. Чтобы открыть публичную часть сайта на коробочной установке отключите опцию «Временное закрытие публичной части сайта». Путь к настройке: Рабочий стол > Настройки > Настройки продукта > Настройки модулей > Главный модуль > Временное закрытие публичной части сайта
+
+
+
+================================================================================
+Получить сделку по Id crm.deal.get
+URL: https://apidocs.bitrix24.ru/api-reference/crm/deals/crm-deal-get.html
+================================================================================
+
+Тип deal
+
+
+Кто может выполнять метод: любой пользователь с правом «чтения» сделок
+
+
+Метод crm.deal.get возвращает сделку по идентификатору.
+
+
+crm.deal.get
+
+
+Обязательные параметры отмечены *
+
+
+Название
+тип
+Описание
+id*
+integer
+Идентификатор сделки.
+Идентификатор можно получить с помощью методов crm.deal.list или crm.deal.add
+
+
+id*
+integer
+
+
+Идентификатор сделки.
+
+
+Идентификатор можно получить с помощью методов crm.deal.list или crm.deal.add
+
+
+Связанные методы и темы
+
+
+Получить поля настройки шаблона регулярной сделки по Id crm.deal.recurring.get
+
+
+curl -X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-d '{"ID":410}' \
+https://**put_your_bitrix24_address**/rest/**put_your_user_id_here**/**put_your_webbhook_here**/crm.deal.get
+
+
+{
+    "result": {
+        "ID": "410",
+        "TITLE": "Новая сделка #1",
+        "TYPE_ID": "COMPLEX",
+        "STAGE_ID": "PREPARATION",
+        "PROBABILITY": "99",
+        "CURRENCY_ID": "EUR",
+        "OPPORTUNITY": "1000000.00",
+        "IS_MANUAL_OPPORTUNITY": "Y",
+        "TAX_VALUE": "0.00",
+        "LEAD_ID": null,
+        "COMPANY_ID": "9",
+        "CONTACT_ID": "84",
+        "QUOTE_ID": null,
+        "BEGINDATE": "2024-08-30T02:00:00+02:00",
+        "CLOSEDATE": "2024-09-09T02:00:00+02:00",
+        "ASSIGNED_BY_ID": "1",
+        "CREATED_BY_ID": "1",
+        "MODIFY_BY_ID": "1",
+        "DATE_CREATE": "2024-08-30T14:29:00+02:00",
+        "DATE_MODIFY": "2024-08-30T14:29:00+02:00",
+        "OPENED": "Y",
+        "CLOSED": "N",
+        "COMMENTS": "[B]Пример комментария[\/B]",
+        "ADDITIONAL_INFO": "Дополнительная информация",
+        "LOCATION_ID": null,
+        "CATEGORY_ID": "0",
+        "STAGE_SEMANTIC_ID": "P",
+        "IS_NEW": "N",
+        "IS_RECURRING": "N",
+        "IS_RETURN_CUSTOMER": "N",
+        "IS_REPEATED_APPROACH": "N",
+        "SOURCE_ID": "CALLBACK",
+        "SOURCE_DESCRIPTION": "Дополнительно об источнике",
+        "ORIGINATOR_ID": null,
+        "ORIGIN_ID": null,
+        "MOVED_BY_ID": "1",
+        "MOVED_TIME": "2024-08-30T14:29:00+02:00",
+        "LAST_ACTIVITY_TIME": "2024-08-30T14:29:00+02:00",
+        "UTM_SOURCE": "google",
+        "UTM_MEDIUM": "CPC",
+        "UTM_CAMPAIGN": null,
+        "UTM_CONTENT": null,
+        "UTM_TERM": null,
+        "PARENT_ID_1220": "22",
+        "LAST_ACTIVITY_BY": "1",
+        "UF_CRM_1721244482250": "Привет мир!"
+    },
+    "time": {
+        "start": 1725020945.541275,
+        "finish": 1725020946.179076,
+        "duration": 0.637800931930542,
+        "processing": 0.21427488327026367,
+        "date_start": "2024-08-30T14:29:05+02:00",
+        "date_finish": "2024-08-30T14:29:06+02:00",
+        "operating": 0
+    }
+}
+
+
+Название
+тип
+Описание
+result
+deal
+Корневой элемент ответа. Содержит информацию о полях сделки. Структура описана ниже
+time
+time
+Информация о времени выполнения запроса
+
+
+result
+deal
+
+
+Корневой элемент ответа. Содержит информацию о полях сделки. Структура описана ниже
+
+
+Название
+тип
+Описание
+ID
+integer
+Идентификатор сделки
+TITLE
+string
+Название
+TYPE_ID
+crm_status
+Строковый идентификатор типа сделки.
+Узнать подробнее о полученном типе сделки можно с помощью метода crm.status.list, передав в фильтр:
+{
+    ENTITY_ID: 'DEAL_TYPE',
+    STATUS_ID: TYPE_ID,
+}
+CATEGORY_ID
+crm_category
+Воронка. Узнать подробнее об этой воронке можно с помощью метода crm.category.get, передав entityTypeId = 2 и id = CATEGORY_ID
+STAGE_ID
+crm_status
+Строковый идентификатор стадии сделки.
+Узнать подробнее о полученной стадии можно с помощью метода crm.status.list, передав в фильтр:
+{
+    ENTITY_ID: entityId,
+    STATUS_ID: statusId,
+}
+где:
+entityId равен:
+DEAL_STAGE в случае, когда сделка находится в общей воронке (CATEGORY_ID = 0)
+DEAL_STAGE_{categoryId}, где categoryId = CATEGORY_ID
+statusId равен STAGE_ID
+STAGE_SEMANTIC_ID
+string
+Группа стадии. Возможные значения:
+P — в работе
+S — успешная
+F — неуспешная
+IS_NEW
+char
+Является ли сделка новой. Возможные значения:
+Y — да
+N — нет
+IS_RECURRING
+char
+Является ли сделка регулярной. Возможные значения:
+Y — да
+N — нет
+IS_RETURN_CUSTOMER
+char
+Является ли сделка повторной. Возможные значения:
+Y — да
+N — нет
+IS_REPEATED_APPROACH
+char
+Является ли обращение повторным. Возможные значения:
+Y — да
+N — нет
+PROBABILITY
+integer
+Вероятность, %
+CURRENCY_ID
+crm_currency
+Валюта
+OPPORTUNITY
+double
+Сумма
+IS_MANUAL_OPPORTUNITY
+char
+Включен ли ручной режим подсчета суммы. Возможные значения:
+Y — да
+N — нет
+TAX_VALUE
+double
+Ставка налога
+COMPANY_ID
+crm_company
+Идентификатор компании.
+Узнать подробнее о компании можно с помощью метода crm.item.get, передав entityTypeId = 4 и id = COMPANY_ID
+CONTACT_ID
+crm_contact
+Идентификатор контакта. Устаревшее
+CONTACT_IDS
+crm_contact[]
+Список идентификаторов контактов.
+Узнать подробнее о списке контактов можно с помощью метода crm.item.list, передав entityTypeId = 3 и фильтр { '@id': CONTACT_IDS }
+QUOTE_ID
+crm_quote
+Идентификатор коммерческого предложения, на основе которого была создана сделка.
+Узнать подробнее о коммерческом предложении можно с помощью метода crm.item.get, передав entityTypeId = 7 и id = QUOTE_ID
+BEGINDATE
+date
+Дата начала
+CLOSEDATE
+date
+Дата завершения
+OPENED
+char
+Доступна ли сделка для всех. Возможные значения:
+Y — да
+N — нет
+CLOSED
+char
+Закрыта ли сделка. Возможные значения:
+Y — да
+N — нет
+COMMENTS
+string
+Комментарий
+ASSIGNED_BY_ID
+user
+Ответственный
+CREATED_BY_ID
+user
+Кем создана
+MODIFY_BY_ID
+user
+Кем изменена
+MOVED_BY_ID
+user
+Идентификатор пользователя, который последним поменял стадию
+DATE_CREATE
+datetime
+Дата создания
+DATE_MODIFY
+datetime
+Дата изменения
+MOVED_TIME
+datetime
+Дата последнего изменения стадии
+SOURCE_ID
+crm_status
+Источник.
+Узнать подробнее о полученном источнике можно с помощью метода crm.status.list, передав в фильтр:
+{
+    ENTITY_ID: 'SOURCE',
+    STATUS_ID: SOURCE_ID,
+}
+SOURCE_DESCRIPTION
+string
+Дополнительно об источнике
+LEAD_ID
+crm_lead
+Идентификатор лида, на основании которого создана сделка.
+Узнать подробнее о лиде можно с помощью метода crm.item.get, передав entityTypeId = 1 и id = LEAD_ID
+ADDITIONAL_INFO
+string
+Дополнительная информация
+LOCATION_ID
+location
+Местоположение. Служебное поле
+ORIGINATOR_ID
+string
+Внешний источник
+ORIGIN_ID
+string
+Идентификатор элемента во внешнем источнике
+UTM_SOURCE
+string
+Рекламная система
+UTM_MEDIUM
+string
+Тип трафика
+UTM_CAMPAIGN
+string
+Обозначение рекламной кампании
+UTM_CONTENT
+string
+Содержание кампании
+UTM_TERM
+string
+Условие поиска кампании
+LAST_ACTIVITY_TIME
+datetime
+Дата последней активности в таймлайне
+LAST_ACTIVITY_BY
+user
+Автор последней активности в таймлайне
+UF_CRM_...
+any
+Пользовательские поля. Например, UF_CRM_25534736.
+В зависимости от настроек портала у сделок может быть набор пользовательских полей определенных типов. Подробнее читайте в разделе о пользовательских полях
+PARENT_ID_...
+crm_entity
+Поля связей.
+Если на портале есть смарт-процессы, связанные со сделками, для каждого такого смарт-процесса существует поле, хранящее связь между этим смарт-процессом и сделкой. Само поле хранит идентификатор элемента такого смарт-процесса.
+Например, поле PARENT_ID_153 — связь со смарт-процессом entityTypeId=153, хранит идентификатор элемента этого смарт-процесса, связанного с текущей сделкой
+
+
+ID
+integer
+
+
+Идентификатор сделки
+
+
+Название
+
+
+Узнать подробнее о полученном типе сделки можно с помощью метода crm.status.list, передав в фильтр:
+
+
+{
+    ENTITY_ID: 'DEAL_TYPE',
+    STATUS_ID: TYPE_ID,
+}
+
+
+Воронка. Узнать подробнее об этой воронке можно с помощью метода crm.category.get, передав entityTypeId = 2 и id = CATEGORY_ID
+
+
+id = CATEGORY_ID
+
+
+Строковый идентификатор стадии сделки.
+
+
+Узнать подробнее о полученной стадии можно с помощью метода crm.status.list, передав в фильтр:
+
+
+{
+    ENTITY_ID: entityId,
+    STATUS_ID: statusId,
+}
+
+
+entityId равен:
+DEAL_STAGE в случае, когда сделка находится в общей воронке (CATEGORY_ID = 0)
+DEAL_STAGE_{categoryId}, где categoryId = CATEGORY_ID
+
+
+entityId
+
+
+DEAL_STAGE в случае, когда сделка находится в общей воронке (CATEGORY_ID = 0)
+
+
+DEAL_STAGE
+
+
+CATEGORY_ID = 0
+
+
+DEAL_STAGE_{categoryId}, где categoryId = CATEGORY_ID
+
+
+DEAL_STAGE_{categoryId}
+
+
+categoryId = CATEGORY_ID
+
+
+statusId равен STAGE_ID
+
+
+statusId
+
+
+STAGE_ID
+
+
+STAGE_SEMANTIC_ID
+string
+
+
+Группа стадии. Возможные значения:
+
+
+P — в работе
+
+
+S — успешная
+
+
+F — неуспешная
+
+
+IS_NEW
+char
+
+
+Является ли сделка новой. Возможные значения:
+
+
+Является ли сделка регулярной. Возможные значения:
+
+
+Является ли обращение повторным. Возможные значения:
+
+
+Валюта
+
+
+Включен ли ручной режим подсчета суммы. Возможные значения:
+
+
+Ставка налога
+
+
+Идентификатор компании.
+
+
+Узнать подробнее о компании можно с помощью метода crm.item.get, передав entityTypeId = 4 и id = COMPANY_ID
+
+
+id = COMPANY_ID
+
+
+Идентификатор контакта. Устаревшее
+
+
+Список идентификаторов контактов.
+
+
+Узнать подробнее о списке контактов можно с помощью метода crm.item.list, передав entityTypeId = 3 и фильтр { '@id': CONTACT_IDS }
+
+
+{ '@id': CONTACT_IDS }
+
+
+QUOTE_ID
+crm_quote
+
+
+crm_quote
+
+
+Идентификатор коммерческого предложения, на основе которого была создана сделка.
+
+
+Узнать подробнее о коммерческом предложении можно с помощью метода crm.item.get, передав entityTypeId = 7 и id = QUOTE_ID
+
+
+entityTypeId = 7
+
+
+id = QUOTE_ID
+
+
+Дата начала
+
+
+Дата завершения
+
+
+Закрыта ли сделка. Возможные значения:
+
+
+Комментарий
+
+
+Ответственный
+
+
+CREATED_BY_ID
+user
+
+
+Кем создана
+
+
+MODIFY_BY_ID
+user
+
+
+Кем изменена
+
+
+MOVED_BY_ID
+user
+
+
+Идентификатор пользователя, который последним поменял стадию
+
+
+DATE_CREATE
+datetime
+
+
+datetime
+
+
+Дата создания
+
+
+DATE_MODIFY
+datetime
+
+
+Дата изменения
+
+
+MOVED_TIME
+datetime
+
+
+Дата последнего изменения стадии
+
+
+Источник.
+
+
+Узнать подробнее о полученном источнике можно с помощью метода crm.status.list, передав в фильтр:
+
+
+{
+    ENTITY_ID: 'SOURCE',
+    STATUS_ID: SOURCE_ID,
+}
+
+
+LEAD_ID
+crm_lead
+
+
+crm_lead
+
+
+Идентификатор лида, на основании которого создана сделка.
+
+
+Узнать подробнее о лиде можно с помощью метода crm.item.get, передав entityTypeId = 1 и id = LEAD_ID
+
+
+entityTypeId = 1
+
+
+id = LEAD_ID
+
+
+Местоположение. Служебное поле
+
+
+Внешний источник
+
+
+Идентификатор элемента во внешнем источнике
+
+
+Рекламная система
+
+
+Тип трафика
+
+
+Содержание кампании
+
+
+Условие поиска кампании
+
+
+LAST_ACTIVITY_TIME
+datetime
+
+
+Дата последней активности в таймлайне
+
+
+LAST_ACTIVITY_BY
+user
+
+
+Автор последней активности в таймлайне
+
+
+UF_CRM_...
+any
+
+
+В зависимости от настроек портала у сделок может быть набор пользовательских полей определенных типов. Подробнее читайте в разделе о пользовательских полях
+
+
+Код
+Описание
+Значение
+-
+ID is not defined or invalid
+В параметр id либо не передано значение, либо оно является не целым числом больше нуля
+-
+Access denied
+У пользователя нет прав на «чтение» данной сделки
+-
+Not found
+Сделки с переданным id не существует
+
+
+ID is not defined or invalid
+
+
+В параметр id либо не передано значение, либо оно является не целым числом больше нуля
+
+
+У пользователя нет прав на «чтение» данной сделки
+
+
+Not found
+
+
+Сделки с переданным id не существует
+
+
+Название
+тип
+Описание
+id*
+integer
+Идентификатор сделки.
+Идентификатор можно получить с помощью методов crm.deal.list или crm.deal.add
+
+
+Название
+тип
+Описание
+result
+deal
+Корневой элемент ответа. Содержит информацию о полях сделки. Структура описана ниже
+time
+time
+Информация о времени выполнения запроса
+
+
+Название
+тип
+Описание
+ID
+integer
+Идентификатор сделки
+TITLE
+string
+Название
+TYPE_ID
+crm_status
+Строковый идентификатор типа сделки.
+Узнать подробнее о полученном типе сделки можно с помощью метода crm.status.list, передав в фильтр:
+{
+    ENTITY_ID: 'DEAL_TYPE',
+    STATUS_ID: TYPE_ID,
+}
+CATEGORY_ID
+crm_category
+Воронка. Узнать подробнее об этой воронке можно с помощью метода crm.category.get, передав entityTypeId = 2 и id = CATEGORY_ID
+STAGE_ID
+crm_status
+Строковый идентификатор стадии сделки.
+Узнать подробнее о полученной стадии можно с помощью метода crm.status.list, передав в фильтр:
+{
+    ENTITY_ID: entityId,
+    STATUS_ID: statusId,
+}
+где:
+entityId равен:
+DEAL_STAGE в случае, когда сделка находится в общей воронке (CATEGORY_ID = 0)
+DEAL_STAGE_{categoryId}, где categoryId = CATEGORY_ID
+statusId равен STAGE_ID
+STAGE_SEMANTIC_ID
+string
+Группа стадии. Возможные значения:
+P — в работе
+S — успешная
+F — неуспешная
+IS_NEW
+char
+Является ли сделка новой. Возможные значения:
+Y — да
+N — нет
+IS_RECURRING
+char
+Является ли сделка регулярной. Возможные значения:
+Y — да
+N — нет
+IS_RETURN_CUSTOMER
+char
+Является ли сделка повторной. Возможные значения:
+Y — да
+N — нет
+IS_REPEATED_APPROACH
+char
+Является ли обращение повторным. Возможные значения:
+Y — да
+N — нет
+PROBABILITY
+integer
+Вероятность, %
+CURRENCY_ID
+crm_currency
+Валюта
+OPPORTUNITY
+double
+Сумма
+IS_MANUAL_OPPORTUNITY
+char
+Включен ли ручной режим подсчета суммы. Возможные значения:
+Y — да
+N — нет
+TAX_VALUE
+double
+Ставка налога
+COMPANY_ID
+crm_company
+Идентификатор компании.
+Узнать подробнее о компании можно с помощью метода crm.item.get, передав entityTypeId = 4 и id = COMPANY_ID
+CONTACT_ID
+crm_contact
+Идентификатор контакта. Устаревшее
+CONTACT_IDS
+crm_contact[]
+Список идентификаторов контактов.
+Узнать подробнее о списке контактов можно с помощью метода crm.item.list, передав entityTypeId = 3 и фильтр { '@id': CONTACT_IDS }
+QUOTE_ID
+crm_quote
+Идентификатор коммерческого предложения, на основе которого была создана сделка.
+Узнать подробнее о коммерческом предложении можно с помощью метода crm.item.get, передав entityTypeId = 7 и id = QUOTE_ID
+BEGINDATE
+date
+Дата начала
+CLOSEDATE
+date
+Дата завершения
+OPENED
+char
+Доступна ли сделка для всех. Возможные значения:
+Y — да
+N — нет
+CLOSED
+char
+Закрыта ли сделка. Возможные значения:
+Y — да
+N — нет
+COMMENTS
+string
+Комментарий
+ASSIGNED_BY_ID
+user
+Ответственный
+CREATED_BY_ID
+user
+Кем создана
+MODIFY_BY_ID
+user
+Кем изменена
+MOVED_BY_ID
+user
+Идентификатор пользователя, который последним поменял стадию
+DATE_CREATE
+datetime
+Дата создания
+DATE_MODIFY
+datetime
+Дата изменения
+MOVED_TIME
+datetime
+Дата последнего изменения стадии
+SOURCE_ID
+crm_status
+Источник.
+Узнать подробнее о полученном источнике можно с помощью метода crm.status.list, передав в фильтр:
+{
+    ENTITY_ID: 'SOURCE',
+    STATUS_ID: SOURCE_ID,
+}
+SOURCE_DESCRIPTION
+string
+Дополнительно об источнике
+LEAD_ID
+crm_lead
+Идентификатор лида, на основании которого создана сделка.
+Узнать подробнее о лиде можно с помощью метода crm.item.get, передав entityTypeId = 1 и id = LEAD_ID
+ADDITIONAL_INFO
+string
+Дополнительная информация
+LOCATION_ID
+location
+Местоположение. Служебное поле
+ORIGINATOR_ID
+string
+Внешний источник
+ORIGIN_ID
+string
+Идентификатор элемента во внешнем источнике
+UTM_SOURCE
+string
+Рекламная система
+UTM_MEDIUM
+string
+Тип трафика
+UTM_CAMPAIGN
+string
+Обозначение рекламной кампании
+UTM_CONTENT
+string
+Содержание кампании
+UTM_TERM
+string
+Условие поиска кампании
+LAST_ACTIVITY_TIME
+datetime
+Дата последней активности в таймлайне
+LAST_ACTIVITY_BY
+user
+Автор последней активности в таймлайне
+UF_CRM_...
+any
+Пользовательские поля. Например, UF_CRM_25534736.
+В зависимости от настроек портала у сделок может быть набор пользовательских полей определенных типов. Подробнее читайте в разделе о пользовательских полях
+PARENT_ID_...
+crm_entity
+Поля связей.
+Если на портале есть смарт-процессы, связанные со сделками, для каждого такого смарт-процесса существует поле, хранящее связь между этим смарт-процессом и сделкой. Само поле хранит идентификатор элемента такого смарт-процесса.
+Например, поле PARENT_ID_153 — связь со смарт-процессом entityTypeId=153, хранит идентификатор элемента этого смарт-процесса, связанного с текущей сделкой
+
+
+Название
+тип
+Описание
+error
+string
+Строковый код ошибки. Может состоять из цифр, латинских букв и знака подчеркивания
+error_description
+error_description
+Текстовое описание ошибки. Описание не предназначено для показа конечному пользователю в необработанном виде
+
+
+Код
+Описание
+Значение
+-
+ID is not defined or invalid
+В параметр id либо не передано значение, либо оно является не целым числом больше нуля
+-
+Access denied
+У пользователя нет прав на «чтение» данной сделки
+-
+Not found
+Сделки с переданным id не существует
+
+
+Статус
+Код
+Текст ошибки
+Описание
+500
+INTERNAL_SERVER_ERROR
+Internal server error
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+500
+ERROR_UNEXPECTED_ANSWER
+Server returned an unexpected response
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+503
+QUERY_LIMIT_EXCEEDED
+Too many requests
+Превышен лимит на интенсивность запросов
+405
+ERROR_BATCH_METHOD_NOT_ALLOWED
+Method is not allowed for batch usage
+Текущий метод не разрешен для вызове с помощью batch
+400
+ERROR_BATCH_LENGTH_EXCEEDED
+Max batch length exceeded
+Превышена максимальная длина параметров, переданных в метод batch
+401
+NO_AUTH_FOUND
+Wrong authorization data
+Неверный access-токен или код вебхука
+400
+INVALID_REQUEST
+Https required
+Для вызовов методов требуется использовать протокол HTTPS
+503
+OVERLOAD_LIMIT
+REST API is blocked due to overload
+REST API заблокирован из-за перегрузки. Это ручная индивидуальная блокировка, для снятия необходимо обращаться в техническую поддержку Битрикс24
+403
+ACCESS_DENIED
+REST API is available only on commercial plans
+REST API доступен только на коммерческих планах
+403
+INVALID_CREDENTIALS
+Invalid request credentials
+У пользователя, с чьим access-токеном или вебхуком был вызван метод, не хватает прав
+404
+ERROR_MANIFEST_IS_NOT_AVAILABLE
+Manifest is not available
+Манифест недоступен
+403
+insufficient_scope
+The request requires higher privileges than provided by the webhook token
+Запрос требует более высоких привилегий, чем предоставляет токен веб-хука
+401
+expired_token
+The access token provided has expired
+Предоставленный access-токен доступа истек
+403
+user_access_error
+The user does not have access to the application
+Пользователь не имеет доступа к приложению. Это означает, что приложение установлено, но администратор портала разрешил доступ к этому приложению только конкретным пользователям
+500
+PORTAL_DELETED
+Portal was deleted
+Публичная часть сайта закрыта. Чтобы открыть публичную часть сайта на коробочной установке отключите опцию «Временное закрытие публичной части сайта». Путь к настройке: Рабочий стол > Настройки > Настройки продукта > Настройки модулей > Главный модуль > Временное закрытие публичной части сайта
+
+
+
+================================================================================
+Получить список сделок crm.deal.list
+URL: https://apidocs.bitrix24.ru/api-reference/crm/deals/crm-deal-list.html
+================================================================================
+
+Метод crm.deal.list возвращает список сделок по фильтру. Является реализацией списочного метода для сделок.
+
+
+crm.deal.list
+
+
+Название
+тип
+Описание
+select
+string[]
+Список полей, которые должны быть заполнены у сделок в выборке.
+При выборке можно использовать следующие маски:
+'*' — для выборки всех полей (без пользовательских и множественных)
+'UF_*' — для выборки всех пользовательских полей (без множественных)
+Список доступных полей для выборки можно узнать с помощью метода crm.deal.fields.
+По умолчанию берутся все поля — '*' + Пользовательские поля — 'UF_*'
+filter
+object
+Объект формата:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+где:
+field_n — название поля, по которому будет отфильтрована выборка элементов
+value_n — значение фильтра
+К ключам field_n можно добавить префикс, уточняющий работу фильтра.
+Возможные значения префикса:
+>= — больше либо равно
+> — больше
+<= — меньше либо равно
+< — меньше
+@ — IN, в качестве значения передается массив
+!@ — NOT IN, в качестве значения передается массив
+% — LIKE, поиск по подстроке. Символ % в значении фильтра передавать не нужно. Поиск ищет подстроку в любой позиции строки
+=% — LIKE, поиск по подстроке. Символ % нужно передавать в значении. Примеры:
+"мол%" — ищет значения, начинающиеся с «мол»
+"%мол" — ищет значения, заканчивающиеся на «мол»
+"%мол%" — ищет значения, где «мол» может быть в любой позиции
+%= — LIKE (аналогично =%)
+= — равно, точное совпадение (используется по умолчанию)
+!= — не равно
+! — не равно
+Фильтр LIKE не работает с полями типа crm_status, crm_contact, crm_company (тип сделки TYPE_ID, стадия STAGE_ID и так далее).
+Список доступных полей для фильтрации можно узнать с помощью метода crm.deal.fields.
+Фильтр не поддерживает поле CONTACT_IDS, для фильтрации по контактам используйте метод crm.item.list
+order
+object
+Объект формата:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+где:
+field_n — название поля, по которому будет произведена сортировка выборки сделок
+value_n — значение типа string, равное:
+ASC — сортировка по возрастанию
+DESC — сортировка по убыванию
+Список доступных полей для сортировки можно узнать с помощью метода crm.deal.fields
+start
+integer
+Параметр используется для управления постраничной навигацией.
+Размер страницы результатов всегда статичный — 50 записей.
+Чтобы выбрать вторую страницу результатов, передайте значение 50. Чтобы выбрать третью страницу результатов — значение 100 и так далее.
+Формула расчета значения параметра start:
+start = (N-1) * 50, где N — номер нужной страницы
+
+
+select
+string[]
+
+
+string[]
+
+
+Список полей, которые должны быть заполнены у сделок в выборке.
+
+
+При выборке можно использовать следующие маски:
+
+
+'*' — для выборки всех полей (без пользовательских и множественных)
+
+
+'UF_*' — для выборки всех пользовательских полей (без множественных)
+
+
+'UF_*'
+
+
+Список доступных полей для выборки можно узнать с помощью метода crm.deal.fields.
+
+
+По умолчанию берутся все поля — '*' + Пользовательские поля — 'UF_*'
+
+
+filter
+object
+
+
+field_n — название поля, по которому будет отфильтрована выборка элементов
+
+
+value_n — значение фильтра
+
+
+К ключам field_n можно добавить префикс, уточняющий работу фильтра.
+Возможные значения префикса:
+
+
+>= — больше либо равно
+
+
+> — больше
+
+
+<= — меньше либо равно
+
+
+< — меньше
+
+
+@ — IN, в качестве значения передается массив
+
+
+!@ — NOT IN, в качестве значения передается массив
+
+
+% — LIKE, поиск по подстроке. Символ % в значении фильтра передавать не нужно. Поиск ищет подстроку в любой позиции строки
+
+
+=% — LIKE, поиск по подстроке. Символ % нужно передавать в значении. Примеры:
+"мол%" — ищет значения, начинающиеся с «мол»
+"%мол" — ищет значения, заканчивающиеся на «мол»
+"%мол%" — ищет значения, где «мол» может быть в любой позиции
+
+
+"мол%" — ищет значения, начинающиеся с «мол»
+
+
+"мол%"
+
+
+"%мол" — ищет значения, заканчивающиеся на «мол»
+
+
+"%мол"
+
+
+"%мол%" — ищет значения, где «мол» может быть в любой позиции
+
+
+"%мол%"
+
+
+%= — LIKE (аналогично =%)
+
+
+= — равно, точное совпадение (используется по умолчанию)
+
+
+!= — не равно
+
+
+! — не равно
+
+
+Фильтр LIKE не работает с полями типа crm_status, crm_contact, crm_company (тип сделки TYPE_ID, стадия STAGE_ID и так далее).
+
+
+TYPE_ID
+
+
+Список доступных полей для фильтрации можно узнать с помощью метода crm.deal.fields.
+
+
+Фильтр не поддерживает поле CONTACT_IDS, для фильтрации по контактам используйте метод crm.item.list
+
+
+CONTACT_IDS
+
+
+order
+object
+
+
+field_n — название поля, по которому будет произведена сортировка выборки сделок
+
+
+value_n — значение типа string, равное:
+ASC — сортировка по возрастанию
+DESC — сортировка по убыванию
+
+
+ASC — сортировка по возрастанию
+
+
+DESC — сортировка по убыванию
+
+
+Список доступных полей для сортировки можно узнать с помощью метода crm.deal.fields
+
+
+start
+integer
+
+
+Параметр используется для управления постраничной навигацией.
+
+
+Размер страницы результатов всегда статичный — 50 записей.
+
+
+Чтобы выбрать вторую страницу результатов, передайте значение 50. Чтобы выбрать третью страницу результатов — значение 100 и так далее.
+
+
+Формула расчета значения параметра start:
+
+
+start = (N-1) * 50, где N — номер нужной страницы
+
+
+start = (N-1) * 50
+
+
+Так же смотрите описание списочных методов.
+
+
+Получить список настроек шаблонов регулярных сделок crm.deal.recurring.list
+
+
+Получить список сделок, у которых:
+
+
+идентификатор воронки равен 1
+
+
+тип сделки равен COMPLEX (комплексная продажа)
+
+
+COMPLEX
+
+
+название заканчивается на а
+
+
+стадия равна С1:NEW (новая)
+
+
+С1:NEW
+
+
+сумма больше 10000, но меньше или равна 20000
+
+
+включен ручной режим подсчета суммы
+
+
+ответственным является либо пользователь с id = 1, либо пользователь с id = 6
+
+
+id = 1
+
+
+id = 6
+
+
+сделка создана не менее 6 месяцев назад
+
+
+Задать следующий порядок сортировки у данной выборки: название и сумма в порядке возрастания.
+
+
+Для наглядности выбрать только необходимые поля:
+
+
+Идентификатор ID
+
+
+Название TITLE
+
+
+Тип сделки TYPE_ID
+
+
+Идентификатор воронки CATEGORY_ID
+
+
+CATEGORY_ID
+
+
+Стадия STAGE_ID
+
+
+Сумма OPPORTUNITY
+
+
+OPPORTUNITY
+
+
+Включен ли ручной режим IS_MANUAL_OPPORTUNITY
+
+
+IS_MANUAL_OPPORTUNITY
+
+
+Ответственный ASSIGNED_BY_ID
+
+
+ASSIGNED_BY_ID
+
+
+Дата создания DATE_CREATE
+
+
+DATE_CREATE
+
+
+curl -X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-d '{"SELECT":["ID","TITLE","TYPE_ID","CATEGORY_ID","STAGE_ID","OPPORTUNITY","IS_MANUAL_OPPORTUNITY","ASSIGNED_BY_ID","DATE_CREATE"],"FILTER":{"=%TITLE":"%а","CATEGORY_ID":1,"TYPE_ID":"COMPLEX","STAGE_ID":"C1:NEW",">OPPORTUNITY":10000,"<=OPPORTUNITY":20000,"IS_MANUAL_OPPORTUNITY":"Y","@ASSIGNED_BY_ID":[1,6],">DATE_CREATE":"'"$(date --date='-6 months' +%Y-%m-%d)"'"},"ORDER":{"TITLE":"ASC","OPPORTUNITY":"ASC"}}' \
+https://**put_your_bitrix24_address**/rest/**put_your_user_id_here**/**put_your_webbhook_here**/crm.deal.list
+
+
+{
+    "result": [
+        {
+            "ID": "37",
+            "TITLE": "[А] Сделка",
+            "TYPE_ID": "COMPLEX",
+            "CATEGORY_ID": "1",
+            "STAGE_ID": "C1:NEW",
+            "OPPORTUNITY": "19999.99",
+            "IS_MANUAL_OPPORTUNITY": "Y",
+            "ASSIGNED_BY_ID": "1",
+            "DATE_CREATE": "2024-09-02T18:37:18+02:00"
+        },
+        {
+            "ID": "38",
+            "TITLE": "[А] Сделка",
+            "TYPE_ID": "COMPLEX",
+            "CATEGORY_ID": "1",
+            "STAGE_ID": "C1:NEW",
+            "OPPORTUNITY": "20000.00",
+            "IS_MANUAL_OPPORTUNITY": "Y",
+            "ASSIGNED_BY_ID": "6",
+            "DATE_CREATE": "2024-09-02T18:37:38+02:00"
+        },
+        {
+            "ID": "39",
+            "TITLE": "[Б] Продажа",
+            "TYPE_ID": "COMPLEX",
+            "CATEGORY_ID": "1",
+            "STAGE_ID": "C1:NEW",
+            "OPPORTUNITY": "12500.00",
+            "IS_MANUAL_OPPORTUNITY": "Y",
+            "ASSIGNED_BY_ID": "1",
+            "DATE_CREATE": "2024-04-09T23:11:01+02:00"
+        },
+        {
+            "ID": "40",
+            "TITLE": "[Б] Сделка",
+            "TYPE_ID": "COMPLEX",
+            "CATEGORY_ID": "1",
+            "STAGE_ID": "C1:NEW",
+            "OPPORTUNITY": "13500.00",
+            "IS_MANUAL_OPPORTUNITY": "Y",
+            "ASSIGNED_BY_ID": "6",
+            "DATE_CREATE": "2024-08-08T19:00:14+02:00"
+        },
+        {
+            "ID": "41",
+            "TITLE": "[В] Сделка",
+            "TYPE_ID": "COMPLEX",
+            "CATEGORY_ID": "1",
+            "STAGE_ID": "C1:NEW",
+            "OPPORTUNITY": "11500.00",
+            "IS_MANUAL_OPPORTUNITY": "Y",
+            "ASSIGNED_BY_ID": "6",
+            "DATE_CREATE": "2024-05-08T09:38:23+02:00"
+        },
+        {
+            "ID": "42",
+            "TITLE": "[С] Сделка",
+            "TYPE_ID": "COMPLEX",
+            "CATEGORY_ID": "1",
+            "STAGE_ID": "C1:NEW",
+            "OPPORTUNITY": "18500.00",
+            "IS_MANUAL_OPPORTUNITY": "Y",
+            "ASSIGNED_BY_ID": "6",
+            "DATE_CREATE": "2024-07-02T15:38:32+02:00"
+        }
+    ],
+    "total": 6,
+    "time": {
+        "start": 1725292115.026221,
+        "finish": 1725292115.907058,
+        "duration": 0.8808369636535645,
+        "processing": 0.2484450340270996,
+        "date_start": "2024-09-02T17:48:35+02:00",
+        "date_finish": "2024-09-02T17:48:35+02:00",
+        "operating": 0
+    }
+}
+
+
+Название
+тип
+Описание
+result
+deal[]
+Корневой элемент ответа. Содержит массив из объектов, содержащих информацию о полях сделок.
+Стоит учитывать, что структура полей может быть изменена из-за параметра select
+total
+integer
+Общее количество найденных элементов
+next
+integer
+Содержит значение, которое нужно передать в следующий запрос в параметр start, чтобы получить следующую порцию данных.
+Параметр next появляется в ответе, если количество элементов, соответствующих вашему запросу, превышает значение 50
+time
+time
+Информация о времени выполнения запроса
+
+
+result
+deal[]
+
+
+deal[]
+
+
+Корневой элемент ответа. Содержит массив из объектов, содержащих информацию о полях сделок.
+
+
+Стоит учитывать, что структура полей может быть изменена из-за параметра select
+
+
+select
+
+
+total
+integer
+
+
+Общее количество найденных элементов
+
+
+next
+integer
+
+
+Содержит значение, которое нужно передать в следующий запрос в параметр start, чтобы получить следующую порцию данных.
+
+
+Параметр next появляется в ответе, если количество элементов, соответствующих вашему запросу, превышает значение 50
+
+
+{
+    "error": "",
+    "error_description": "Parameter 'filter' must be array."
+}
+
+
+Код
+Описание
+Значение
+-
+Access denied
+У пользователя нет прав на «чтение» сделок
+-
+Parameter 'order' must be array
+В параметр order передан не объект
+-
+Parameter 'filter' must be array
+В параметр filter передан не объект
+-
+Failed to get list. General error
+Произошла неизвестная ошибка
+
+
+У пользователя нет прав на «чтение» сделок
+
+
+Parameter 'order' must be array
+
+
+В параметр order передан не объект
+
+
+Parameter 'filter' must be array
+
+
+В параметр filter передан не объект
+
+
+filter
+
+
+Failed to get list. General error
+
+
+Произошла неизвестная ошибка
+
+
+Добавить дело в новый лид или сделку в зависимости от режима CRM
+
+
+Название
+тип
+Описание
+select
+string[]
+Список полей, которые должны быть заполнены у сделок в выборке.
+При выборке можно использовать следующие маски:
+'*' — для выборки всех полей (без пользовательских и множественных)
+'UF_*' — для выборки всех пользовательских полей (без множественных)
+Список доступных полей для выборки можно узнать с помощью метода crm.deal.fields.
+По умолчанию берутся все поля — '*' + Пользовательские поля — 'UF_*'
+filter
+object
+Объект формата:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+где:
+field_n — название поля, по которому будет отфильтрована выборка элементов
+value_n — значение фильтра
+К ключам field_n можно добавить префикс, уточняющий работу фильтра.
+Возможные значения префикса:
+>= — больше либо равно
+> — больше
+<= — меньше либо равно
+< — меньше
+@ — IN, в качестве значения передается массив
+!@ — NOT IN, в качестве значения передается массив
+% — LIKE, поиск по подстроке. Символ % в значении фильтра передавать не нужно. Поиск ищет подстроку в любой позиции строки
+=% — LIKE, поиск по подстроке. Символ % нужно передавать в значении. Примеры:
+"мол%" — ищет значения, начинающиеся с «мол»
+"%мол" — ищет значения, заканчивающиеся на «мол»
+"%мол%" — ищет значения, где «мол» может быть в любой позиции
+%= — LIKE (аналогично =%)
+= — равно, точное совпадение (используется по умолчанию)
+!= — не равно
+! — не равно
+Фильтр LIKE не работает с полями типа crm_status, crm_contact, crm_company (тип сделки TYPE_ID, стадия STAGE_ID и так далее).
+Список доступных полей для фильтрации можно узнать с помощью метода crm.deal.fields.
+Фильтр не поддерживает поле CONTACT_IDS, для фильтрации по контактам используйте метод crm.item.list
+order
+object
+Объект формата:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+где:
+field_n — название поля, по которому будет произведена сортировка выборки сделок
+value_n — значение типа string, равное:
+ASC — сортировка по возрастанию
+DESC — сортировка по убыванию
+Список доступных полей для сортировки можно узнать с помощью метода crm.deal.fields
+start
+integer
+Параметр используется для управления постраничной навигацией.
+Размер страницы результатов всегда статичный — 50 записей.
+Чтобы выбрать вторую страницу результатов, передайте значение 50. Чтобы выбрать третью страницу результатов — значение 100 и так далее.
+Формула расчета значения параметра start:
+start = (N-1) * 50, где N — номер нужной страницы
+
+
+Название
+тип
+Описание
+result
+deal[]
+Корневой элемент ответа. Содержит массив из объектов, содержащих информацию о полях сделок.
+Стоит учитывать, что структура полей может быть изменена из-за параметра select
+total
+integer
+Общее количество найденных элементов
+next
+integer
+Содержит значение, которое нужно передать в следующий запрос в параметр start, чтобы получить следующую порцию данных.
+Параметр next появляется в ответе, если количество элементов, соответствующих вашему запросу, превышает значение 50
+time
+time
+Информация о времени выполнения запроса
+
+
+Название
+тип
+Описание
+error
+string
+Строковый код ошибки. Может состоять из цифр, латинских букв и знака подчеркивания
+error_description
+error_description
+Текстовое описание ошибки. Описание не предназначено для показа конечному пользователю в необработанном виде
+
+
+Код
+Описание
+Значение
+-
+Access denied
+У пользователя нет прав на «чтение» сделок
+-
+Parameter 'order' must be array
+В параметр order передан не объект
+-
+Parameter 'filter' must be array
+В параметр filter передан не объект
+-
+Failed to get list. General error
+Произошла неизвестная ошибка
+
+
+Статус
+Код
+Текст ошибки
+Описание
+500
+INTERNAL_SERVER_ERROR
+Internal server error
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+500
+ERROR_UNEXPECTED_ANSWER
+Server returned an unexpected response
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+503
+QUERY_LIMIT_EXCEEDED
+Too many requests
+Превышен лимит на интенсивность запросов
+405
+ERROR_BATCH_METHOD_NOT_ALLOWED
+Method is not allowed for batch usage
+Текущий метод не разрешен для вызове с помощью batch
+400
+ERROR_BATCH_LENGTH_EXCEEDED
+Max batch length exceeded
+Превышена максимальная длина параметров, переданных в метод batch
+401
+NO_AUTH_FOUND
+Wrong authorization data
+Неверный access-токен или код вебхука
+400
+INVALID_REQUEST
+Https required
+Для вызовов методов требуется использовать протокол HTTPS
+503
+OVERLOAD_LIMIT
+REST API is blocked due to overload
+REST API заблокирован из-за перегрузки. Это ручная индивидуальная блокировка, для снятия необходимо обращаться в техническую поддержку Битрикс24
+403
+ACCESS_DENIED
+REST API is available only on commercial plans
+REST API доступен только на коммерческих планах
+403
+INVALID_CREDENTIALS
+Invalid request credentials
+У пользователя, с чьим access-токеном или вебхуком был вызван метод, не хватает прав
+404
+ERROR_MANIFEST_IS_NOT_AVAILABLE
+Manifest is not available
+Манифест недоступен
+403
+insufficient_scope
+The request requires higher privileges than provided by the webhook token
+Запрос требует более высоких привилегий, чем предоставляет токен веб-хука
+401
+expired_token
+The access token provided has expired
+Предоставленный access-токен доступа истек
+403
+user_access_error
+The user does not have access to the application
+Пользователь не имеет доступа к приложению. Это означает, что приложение установлено, но администратор портала разрешил доступ к этому приложению только конкретным пользователям
+500
+PORTAL_DELETED
+Portal was deleted
+Публичная часть сайта закрыта. Чтобы открыть публичную часть сайта на коробочной установке отключите опцию «Временное закрытие публичной части сайта». Путь к настройке: Рабочий стол > Настройки > Настройки продукта > Настройки модулей > Главный модуль > Временное закрытие публичной части сайта
+
+
+
+================================================================================
+Изменить сделку crm.deal.update
+URL: https://apidocs.bitrix24.ru/api-reference/crm/deals/crm-deal-update.html
+================================================================================
+
+Пояснения к методу
+
+
+Кто может выполнять метод: любой пользователь с правом «изменения» сделок
+
+
+Метод crm.deal.update обновляет существующую сделку.
+
+
+crm.deal.update
+
+
+Название
+тип
+Описание
+id*
+integer
+Идентификатор сделки.
+Идентификатор можно получить с помощью методов crm.deal.list или crm.deal.add
+fields
+object
+Объект формата:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+где:
+field_n — название поля
+value_n — новое значение поля
+Список доступных полей описан ниже.
+Некорректное поле в fields будет проигнорировано.
+В fields нужно передавать только те поля, которые требуется изменить
+params
+object
+Набор дополнительных параметров (подробное описание)
+
+
+value_n — новое значение поля
+
+
+Список доступных полей описан ниже.
+
+
+Некорректное поле в fields будет проигнорировано.
+
+
+В fields нужно передавать только те поля, которые требуется изменить
+
+
+Набор дополнительных параметров (подробное описание)
+
+
+Название
+тип
+Описание
+TITLE
+string
+Название сделки
+TYPE_ID
+crm_status
+Строковый идентификатор типа сделки.
+Список доступных типов сделки можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: 'DEAL_TYPE' }
+STAGE_ID
+crm_status
+Стадия сделки.
+Список доступных стадий можно узнать с помощью метода crm.status.list, применив фильтр:
+{ ENTITY_ID: "DEAL_STAGE" } — если сделка находится в общей воронке (направлении)
+{ ENTITY_ID: "DEAL_STAGE_{categoryId}" } — если сделка находится не в общей воронке, где categoryId — это идентификатор воронки и равен CATEGORY_ID сделки.
+Если необходимо сменить воронку сделки, используйте метод crm.item.update, entityTypeId сделки — 2
+IS_RECURRING
+char
+Является ли сделка шаблоном регулярной сделки. Возможные значения:
+Y — да
+N — нет
+IS_RETURN_CUSTOMER
+char
+Является ли сделка повторной. Возможные значения:
+Y — да
+N — нет
+IS_REPEATED_APPROACH
+char
+Является ли сделка повторным обращением. Возможные значения:
+Y — да
+N — нет
+PROBABILITY
+integer
+Вероятность, %
+CURRENCY_ID
+crm_currency
+Валюта.
+Список доступных валют можно узнать с помощью метода crm.currency.list
+OPPORTUNITY
+double
+Сумма
+IS_MANUAL_OPPORTUNITY
+char
+Включен ли режим ручного подсчета суммы. Возможные значения:
+Y — да
+N — нет
+TAX_VALUE
+double
+Сумма налога
+COMPANY_ID
+crm_company
+Идентификатор компании, привязанной к сделке.
+Список компаний можно узнать с помощью метода crm.item.list, передав entityTypeId = 4
+CONTACT_ID
+crm_contact
+Контакт. Устаревшее
+CONTACT_IDS
+crm_contact[]
+Список привязанных к сделке контактов.
+Список контактов можно узнать с помощью метода crm.item.list, передав entityTypeId = 3
+BEGINDATE
+date
+Дата начала
+CLOSEDATE
+date
+Дата завершения
+OPENED
+char
+Доступна ли сделка для всех. Возможные значения:
+Y — да
+N — нет
+CLOSED
+char
+Является ли сделка закрытой. Возможные значения:
+Y — да
+N — нет
+COMMENTS
+string
+Комментарий. Поддерживает bb-коды
+ASSIGNED_BY_ID
+user
+Ответственный
+SOURCE_ID
+crm_status
+Строковый идентификатор типа источника.
+Список доступных источников можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: "SOURCE" }
+SOURCE_DESCRIPTION
+string
+Дополнительно об источнике
+ADDITIONAL_INFO
+string
+Дополнительная информация
+LOCATION_ID
+location
+Местоположение клиента. Служебное поле
+ORIGINATOR_ID
+string
+Идентификатор источника данных.
+Используется только для привязки к внешнему источнику
+ORIGIN_ID
+string
+Идентификатор элемента в источнике данных.
+Используется только для привязки к внешнему источнику
+UTM_SOURCE
+string
+Рекламная система (Google-Adwords и другие)
+UTM_MEDIUM
+string
+Тип трафика. Возможные значения:
+CPC — объявления
+CPM — баннеры
+UTM_CAMPAIGN
+string
+Обозначение рекламной кампании
+UTM_CONTENT
+string
+Содержание кампании. Например, для контекстных объявлений
+UTM_TERM
+string
+Условие поиска кампании. Например, ключевые слова контекстной рекламы
+UF_CRM_...
+Пользовательские поля. Например, UF_CRM_25534736.
+В зависимости от настроек портала у сделок может быть набор пользовательских полей определенных типов.
+Значения множественных полей передаются в виде массива.
+Для изменения файловых полей рекомендуется использовать метод crm.item.update.
+Добавить пользовательское поле в сделку можно с помощью метода crm.deal.userfield.add
+PARENT_ID_...
+crm_entity
+Поля связей.
+Если на портале есть смарт-процессы, связанные со сделками, для каждого такого смарт-процесса существует поле, хранящее связь между этим смарт-процессом и сделкой. Само поле хранит идентификатор элемента такого смарт-процесса.
+Например, поле PARENT_ID_153 — связь со смарт-процессом entityTypeId=153, хранит идентификатор элемента этого смарт-процесса, связанного с текущей сделкой
+
+
+Название сделки
+
+
+Список доступных типов сделки можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: 'DEAL_TYPE' }
+
+
+{ ENTITY_ID: "DEAL_STAGE_{categoryId}" } — если сделка находится не в общей воронке, где categoryId — это идентификатор воронки и равен CATEGORY_ID сделки.
+
+
+Если необходимо сменить воронку сделки, используйте метод crm.item.update, entityTypeId сделки — 2
+
+
+entityTypeId
+
+
+Сумма налога
+
+
+Список доступных источников можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: "SOURCE" }
+
+
+Значения множественных полей передаются в виде массива.
+
+
+Для изменения файловых полей рекомендуется использовать метод crm.item.update.
+
+
+Название
+тип
+Описание
+REGISTER_SONET_EVENT
+boolean
+Зарегистрировать ли событие изменения сделки в живой ленте. Возможные значения:
+Y — да
+N — нет
+REGISTER_HISTORY_EVENT
+boolean
+Создать ли запись в истории. Возможные значения:
+Y — да
+N — нет
+
+
+Зарегистрировать ли событие изменения сделки в живой ленте. Возможные значения:
+
+
+REGISTER_HISTORY_EVENT
+boolean
+
+
+Создать ли запись в истории. Возможные значения:
+
+
+Изменить существующую настройку для шаблона регулярной сделки crm.deal.recurring.update
+
+
+curl -X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-d '{"ID":123,"FIELDS":{"TITLE":"Новое название сделки!","TYPE_ID":"GOODS","STAGE_ID":"WON","IS_RECCURING":"Y","IS_RETURN_CUSTOMER":"Y","OPPORTUNITY":9999.99,"IS_MANUAL_OPPORTUNITY":"Y","ASSIGNED_BY_ID":1,"UF_CRM_1725365197310":"Строка","PARENT_ID_1032":1},"PARAMS":{"REGISTER_SONET_EVENT":"N","REGISTER_HISTORY_EVENT":"N"}}' \
+https://**put_your_bitrix24_address**/rest/**put_your_user_id_here**/**put_your_webbhook_here**/crm.deal.update
+
+
+Для управления контактами сделки не рекомендуется использовать поля CONTACT_IDS и CONTACT_ID.
+
+
+CONTACT_ID
+
+
+Используйте методы crm.deal.contact.* для работы с одним контактом, методы crm.deal.contact.items.* для работы с группой контактов сделки.
+
+
+{
+    "result": true,
+    "time": {
+        "start": 1725365418.056843,
+        "finish": 1725365419.671506,
+        "duration": 1.6146628856658936,
+        "processing": 1.3475170135498047,
+        "date_start": "2024-09-03T14:10:18+02:00",
+        "date_finish": "2024-09-03T14:10:19+02:00",
+        "operating": 0
+    }
+}
+
+
+Название
+тип
+Описание
+result
+boolean
+Корневой элемент ответа, содержит true в случае успеха
+time
+time
+Информация о времени выполнения запроса
+
+
+result
+boolean
+
+
+Корневой элемент ответа, содержит true в случае успеха
+
+
+Код
+Описание
+Значение
+-
+ID is not defined or invalid
+В параметр id передано не целое число больше нуля
+-
+Not found
+Сделка с переданным id не существует
+-
+Parameter 'fields' must be array
+В параметр fields передан не объект
+-
+Parameter 'params' must be array
+В параметр params передан не объект
+-
+Access denied
+У пользователя нет прав на «изменение» сделок
+-
+Исчерпан выделенный дисковый ресурс
+-
+Неверное значение поля «Валюта»
+
+
+В параметр id передано не целое число больше нуля
+
+
+Сделка с переданным id не существует
+
+
+В параметр params передан не объект
+
+
+У пользователя нет прав на «изменение» сделок
+
+
+Обновить элемент crm.item.update
+
+
+Как сохранить дату оплаты в поле сделки
+
+
+Название
+тип
+Описание
+id*
+integer
+Идентификатор сделки.
+Идентификатор можно получить с помощью методов crm.deal.list или crm.deal.add
+fields
+object
+Объект формата:
+{
+    field_1: value_1,
+    field_2: value_2,
+    ...,
+    field_n: value_n,
+}
+где:
+field_n — название поля
+value_n — новое значение поля
+Список доступных полей описан ниже.
+Некорректное поле в fields будет проигнорировано.
+В fields нужно передавать только те поля, которые требуется изменить
+params
+object
+Набор дополнительных параметров (подробное описание)
+
+
+Название
+тип
+Описание
+TITLE
+string
+Название сделки
+TYPE_ID
+crm_status
+Строковый идентификатор типа сделки.
+Список доступных типов сделки можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: 'DEAL_TYPE' }
+STAGE_ID
+crm_status
+Стадия сделки.
+Список доступных стадий можно узнать с помощью метода crm.status.list, применив фильтр:
+{ ENTITY_ID: "DEAL_STAGE" } — если сделка находится в общей воронке (направлении)
+{ ENTITY_ID: "DEAL_STAGE_{categoryId}" } — если сделка находится не в общей воронке, где categoryId — это идентификатор воронки и равен CATEGORY_ID сделки.
+Если необходимо сменить воронку сделки, используйте метод crm.item.update, entityTypeId сделки — 2
+IS_RECURRING
+char
+Является ли сделка шаблоном регулярной сделки. Возможные значения:
+Y — да
+N — нет
+IS_RETURN_CUSTOMER
+char
+Является ли сделка повторной. Возможные значения:
+Y — да
+N — нет
+IS_REPEATED_APPROACH
+char
+Является ли сделка повторным обращением. Возможные значения:
+Y — да
+N — нет
+PROBABILITY
+integer
+Вероятность, %
+CURRENCY_ID
+crm_currency
+Валюта.
+Список доступных валют можно узнать с помощью метода crm.currency.list
+OPPORTUNITY
+double
+Сумма
+IS_MANUAL_OPPORTUNITY
+char
+Включен ли режим ручного подсчета суммы. Возможные значения:
+Y — да
+N — нет
+TAX_VALUE
+double
+Сумма налога
+COMPANY_ID
+crm_company
+Идентификатор компании, привязанной к сделке.
+Список компаний можно узнать с помощью метода crm.item.list, передав entityTypeId = 4
+CONTACT_ID
+crm_contact
+Контакт. Устаревшее
+CONTACT_IDS
+crm_contact[]
+Список привязанных к сделке контактов.
+Список контактов можно узнать с помощью метода crm.item.list, передав entityTypeId = 3
+BEGINDATE
+date
+Дата начала
+CLOSEDATE
+date
+Дата завершения
+OPENED
+char
+Доступна ли сделка для всех. Возможные значения:
+Y — да
+N — нет
+CLOSED
+char
+Является ли сделка закрытой. Возможные значения:
+Y — да
+N — нет
+COMMENTS
+string
+Комментарий. Поддерживает bb-коды
+ASSIGNED_BY_ID
+user
+Ответственный
+SOURCE_ID
+crm_status
+Строковый идентификатор типа источника.
+Список доступных источников можно узнать с помощью метода crm.status.list, применив фильтр { ENTITY_ID: "SOURCE" }
+SOURCE_DESCRIPTION
+string
+Дополнительно об источнике
+ADDITIONAL_INFO
+string
+Дополнительная информация
+LOCATION_ID
+location
+Местоположение клиента. Служебное поле
+ORIGINATOR_ID
+string
+Идентификатор источника данных.
+Используется только для привязки к внешнему источнику
+ORIGIN_ID
+string
+Идентификатор элемента в источнике данных.
+Используется только для привязки к внешнему источнику
+UTM_SOURCE
+string
+Рекламная система (Google-Adwords и другие)
+UTM_MEDIUM
+string
+Тип трафика. Возможные значения:
+CPC — объявления
+CPM — баннеры
+UTM_CAMPAIGN
+string
+Обозначение рекламной кампании
+UTM_CONTENT
+string
+Содержание кампании. Например, для контекстных объявлений
+UTM_TERM
+string
+Условие поиска кампании. Например, ключевые слова контекстной рекламы
+UF_CRM_...
+Пользовательские поля. Например, UF_CRM_25534736.
+В зависимости от настроек портала у сделок может быть набор пользовательских полей определенных типов.
+Значения множественных полей передаются в виде массива.
+Для изменения файловых полей рекомендуется использовать метод crm.item.update.
+Добавить пользовательское поле в сделку можно с помощью метода crm.deal.userfield.add
+PARENT_ID_...
+crm_entity
+Поля связей.
+Если на портале есть смарт-процессы, связанные со сделками, для каждого такого смарт-процесса существует поле, хранящее связь между этим смарт-процессом и сделкой. Само поле хранит идентификатор элемента такого смарт-процесса.
+Например, поле PARENT_ID_153 — связь со смарт-процессом entityTypeId=153, хранит идентификатор элемента этого смарт-процесса, связанного с текущей сделкой
+
+
+Название
+тип
+Описание
+REGISTER_SONET_EVENT
+boolean
+Зарегистрировать ли событие изменения сделки в живой ленте. Возможные значения:
+Y — да
+N — нет
+REGISTER_HISTORY_EVENT
+boolean
+Создать ли запись в истории. Возможные значения:
+Y — да
+N — нет
+
+
+Название
+тип
+Описание
+result
+boolean
+Корневой элемент ответа, содержит true в случае успеха
+time
+time
+Информация о времени выполнения запроса
+
+
+Название
+тип
+Описание
+error
+string
+Строковый код ошибки. Может состоять из цифр, латинских букв и знака подчеркивания
+error_description
+error_description
+Текстовое описание ошибки. Описание не предназначено для показа конечному пользователю в необработанном виде
+
+
+Код
+Описание
+Значение
+-
+ID is not defined or invalid
+В параметр id передано не целое число больше нуля
+-
+Not found
+Сделка с переданным id не существует
+-
+Parameter 'fields' must be array
+В параметр fields передан не объект
+-
+Parameter 'params' must be array
+В параметр params передан не объект
+-
+Access denied
+У пользователя нет прав на «изменение» сделок
+-
+Исчерпан выделенный дисковый ресурс
+-
+Неверное значение поля «Валюта»
+
+
+Статус
+Код
+Текст ошибки
+Описание
+500
+INTERNAL_SERVER_ERROR
+Internal server error
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+500
+ERROR_UNEXPECTED_ANSWER
+Server returned an unexpected response
+Возникла внутренняя ошибка сервера, обратитесь к администратору сервера или в техническую поддержку Битрикс24
+503
+QUERY_LIMIT_EXCEEDED
+Too many requests
+Превышен лимит на интенсивность запросов
+405
+ERROR_BATCH_METHOD_NOT_ALLOWED
+Method is not allowed for batch usage
+Текущий метод не разрешен для вызове с помощью batch
+400
+ERROR_BATCH_LENGTH_EXCEEDED
+Max batch length exceeded
+Превышена максимальная длина параметров, переданных в метод batch
+401
+NO_AUTH_FOUND
+Wrong authorization data
+Неверный access-токен или код вебхука
+400
+INVALID_REQUEST
+Https required
+Для вызовов методов требуется использовать протокол HTTPS
+503
+OVERLOAD_LIMIT
+REST API is blocked due to overload
+REST API заблокирован из-за перегрузки. Это ручная индивидуальная блокировка, для снятия необходимо обращаться в техническую поддержку Битрикс24
+403
+ACCESS_DENIED
+REST API is available only on commercial plans
+REST API доступен только на коммерческих планах
+403
+INVALID_CREDENTIALS
+Invalid request credentials
+У пользователя, с чьим access-токеном или вебхуком был вызван метод, не хватает прав
+404
+ERROR_MANIFEST_IS_NOT_AVAILABLE
+Manifest is not available
+Манифест недоступен
+403
+insufficient_scope
+The request requires higher privileges than provided by the webhook token
+Запрос требует более высоких привилегий, чем предоставляет токен веб-хука
+401
+expired_token
+The access token provided has expired
+Предоставленный access-токен доступа истек
+403
+user_access_error
+The user does not have access to the application
+Пользователь не имеет доступа к приложению. Это означает, что приложение установлено, но администратор портала разрешил доступ к этому приложению только конкретным пользователям
+500
+PORTAL_DELETED
+Portal was deleted
+Публичная часть сайта закрыта. Чтобы открыть публичную часть сайта на коробочной установке отключите опцию «Временное закрытие публичной части сайта». Путь к настройке: Рабочий стол > Настройки > Настройки продукта > Настройки модулей > Главный модуль > Временное закрытие публичной части сайта
+
+
+
+================================================================================
+Сделки в CRM: обзор методов
+URL: https://apidocs.bitrix24.ru/api-reference/crm/deals/index.html
+================================================================================
+
+Связь сделок с другими объектами CRM
+
+
+Воронки и стадии сделок
+
+
+Как изменить воронку сделки
+
+
+Карточка сделки
+
+
+Обзор методов и событий
+
+
+Основные
+
+
+Контакты сделки
+
+
+Сделка — один из ключевых объектов CRM, в ней:
+
+
+можно управлять процессом продажи товара или услуги, включая отслеживание этапов и прием онлайн-платежей
+
+
+ведется диалог с клиентом: звонки, письма, чаты открытых линий
+
+
+вы можете просмотреть историю работы: дела, записи таймлайна
+
+
+Быстрый переход: все методы и события
+
+
+Пользовательская документация: сделки в Битрикс24
+
+
+Клиент. Поле в карточке сделки, состоящее из связанных с ней компании и контактов. Все дела звонков, писем, чатов с контактом или компанией будут сохранены в карточке активной сделки. Компания в поле одна, обращение к ней происходит напрямую через поле сделки COMPANY_ID. Контактов может быть указано несколько, взаимодействие с ними ведется через отдельную группу методов crm.deal.contact.*.
+
+
+COMPANY_ID
+
+
+Товары. Добавление, изменение, удаление товарных позиций в сделках возможно через группу методов crm.item.productrow.*.
+
+
+Оплаты. Добавление, изменение, удаление документов оплаты в сделках возможно через группу методов crm.item.payment.*.
+
+
+Пользовательская документация
+
+
+Связь между сделками, контактами и компаниями
+
+
+Как добавить товары в сделки, лиды и предложения
+
+
+Как принимать оплату от клиентов и работать с чеками в Битрикс24
+
+
+Для сделок можно создавать различные воронки продаж и управлять ими через группу методов crm.category.* entityTypeId сделки = 2.
+
+
+В каждой воронке будут свои стадии. Ими можно управлять через группу методов справочников CRM — crm.status.*. ENTITY_ID статусов сделок оригинальный у каждого направления — DEAL_STAGE_xx.
+
+
+ENTITY_ID
+
+
+DEAL_STAGE_xx
+
+
+Получить историю движения сделки по стадиям можно через метод crm.stagehistory.list.
+
+
+Воронки продаж: как в CRM разделить работу по отделам
+
+
+Метод crm.deal.update может изменить только стадию сделки внутри текущей воронки. Если передать STAGE_ID, который не принадлежит текущей воронке, ничего не изменится.
+
+
+Чтобы переместить сделку на стадию в другую воронку, используйте метод crm.item.update с параметрами:
+
+
+entityTypeId — 2 для сделки,
+
+
+id — id сделки, которую перемещаете,
+
+
+categoryId — id воронки, куда перемещаете сделку. Получить можно методом crm.category.list
+
+
+stageId — id стадии в новой воронке. Получить можно методом crm.status.list
+
+
+stageId
+
+
+curl -X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-d '{"entityTypeId":2,"id":233,"fields":{"STAGE_ID":"EXECUTING","categoryId":0}}' \
+https://**put_your_bitrix24_address**/rest/**put_your_user_id_here**/**put_your_webbhook_here**/crm.item.update
+
+
+Основное рабочее пространство в сделке — это вкладка Общее ее карточки. Она состоит из двух частей:
+
+
+левая, в ней располагаются поля с информацией. Если системных полей недостаточно, вы можете создать собственные пользовательские поля. Они позволяют хранить информацию в различных форматах данных: строка, число, ссылка, адрес и другие . Для создания, изменения, получения или удаления пользовательских полей сделок используется группа методов crm.deal.userfield.*
+
+
+правая, в ней располагается таймлайн сделки. В нем можно создавать, редактировать, фильтровать, удалять дела CRM — группа методов crm.activity.*, и записи таймлайна — группа методов crm.timeline.*
+
+
+Параметрами карточки сделки можно управлять в зависимости от воронки через группу методов crm.deal.details.configuration.*.
+
+
+Карточка CRM: возможности и настройки
+
+
+Системные поля в CRM
+
+
+Пользовательские поля в CRM
+
+
+Таймлайн в элементе CRM
+
+
+В карточку сделки можно встроить приложение. Благодаря встраиванию можно будет использовать приложение и не покидать карточку сделки.
+
+
+Есть два сценария встройки:
+
+
+Использовать специальные места встраивания. Например, через создание своей вкладки
+
+
+Создать пользовательское поле, в которое будет загружается интерфейс вашего приложения
+
+
+Механизм встройки виджетов
+
+
+Встроить виджет в карточку CRM
+
+
+Автоматическое создание однотипных регулярных сделок по шаблонам. Для управлениям шаблонами используется группа методов crm.deal.recurring.*.
+
+
+Кто может выполнять метод: в зависимости от метода
+
+
+Метод
+Описание
+crm.deal.add
+Создает новую сделку
+crm.deal.update
+Изменяет сделку
+crm.deal.get
+Возвращает сделку по идентификатору
+crm.deal.list
+Возвращает список сделок по фильтру
+crm.deal.delete
+Удаляет сделку и все связанные с ней объекты
+crm.deal.fields
+Возвращает описание полей сделки
+crm.deal.productrows.set
+Добавляет товары в сделку
+crm.deal.productrows.get
+Возвращает товары сделки
+
+
+Создает новую сделку
+
+
+Изменяет сделку
+
+
+Возвращает сделку по идентификатору
+
+
+Возвращает список сделок по фильтру
+
+
+crm.deal.delete
+
+
+Удаляет сделку и все связанные с ней объекты
+
+
+Возвращает описание полей сделки
+
+
+crm.deal.productrows.set
+
+
+Добавляет товары в сделку
+
+
+crm.deal.productrows.get
+
+
+Возвращает товары сделки
+
+
+Метод
+Описание
+crm.deal.recurring.add
+Создает новую регулярную сделку
+crm.deal.recurring.fields
+Возвращает список полей шаблона регулярной сделки
+crm.deal.recurring.expose
+Создает новую сделку из шаблона
+crm.deal.recurring.update
+Изменяет существующие настройки для шаблона регулярной сделки
+crm.deal.recurring.get
+Получает поля настройки шаблона регулярной сделки по Id
+crm.deal.recurring.list
+Получает список настроек шаблонов регулярных сделок
+crm.deal.recurring.delete
+Удаляет существующие настройки для шаблона регулярной сделки
+
+
+crm.deal.recurring.add
+
+
+Создает новую регулярную сделку
+
+
+crm.deal.recurring.fields
+
+
+Возвращает список полей шаблона регулярной сделки
+
+
+crm.deal.recurring.expose
+
+
+Создает новую сделку из шаблона
+
+
+crm.deal.recurring.update
+
+
+Изменяет существующие настройки для шаблона регулярной сделки
+
+
+crm.deal.recurring.get
+
+
+Получает поля настройки шаблона регулярной сделки по Id
+
+
+crm.deal.recurring.list
+
+
+Получает список настроек шаблонов регулярных сделок
+
+
+crm.deal.recurring.delete
+
+
+Удаляет существующие настройки для шаблона регулярной сделки
+
+
+Метод
+Описание
+crm.deal.userfield.add
+Создает новое пользовательское поле для сделок
+crm.deal.userfield.update
+Изменяет существующее пользовательское поле сделок
+crm.deal.userfield.get
+Получает пользовательское поле сделок по Id
+crm.deal.userfield.list
+Получает списка пользовательских полей сделок
+crm.deal.userfield.delete
+Удаляет пользовательское поле сделок
+
+
+crm.deal.userfield.add
+
+
+Создает новое пользовательское поле для сделок
+
+
+crm.deal.userfield.update
+
+
+Изменяет существующее пользовательское поле сделок
+
+
+crm.deal.userfield.get
+
+
+Получает пользовательское поле сделок по Id
+
+
+crm.deal.userfield.list
+
+
+Получает списка пользовательских полей сделок
+
+
+crm.deal.userfield.delete
+
+
+Удаляет пользовательское поле сделок
+
+
+Метод
+Описание
+crm.deal.contact.add
+Добавляет контакт к сделке
+crm.deal.contact.items.set
+Добавляет несколько контактов к сделке
+crm.deal.contact.fields
+Возвращает поля связи сделка-контакт
+crm.deal.contact.items.get
+Получает набор контактов, связанных со сделкой
+crm.deal.contact.delete
+Удаляет контакт из указанной сделки
+crm.deal.contact.items.delete
+Удаляет набор контактов, связанных с указанной сделкой
+
+
+crm.deal.contact.add
+
+
+Добавляет контакт к сделке
+
+
+crm.deal.contact.items.set
+
+
+Добавляет несколько контактов к сделке
+
+
+crm.deal.contact.fields
+
+
+Возвращает поля связи сделка-контакт
+
+
+crm.deal.contact.items.get
+
+
+Получает набор контактов, связанных со сделкой
+
+
+crm.deal.contact.delete
+
+
+Удаляет контакт из указанной сделки
+
+
+crm.deal.contact.items.delete
+
+
+Удаляет набор контактов, связанных с указанной сделкой
+
+
+Метод
+Описание
+crm.deal.details.configuration.get
+Получает настройки карточки сделок
+crm.deal.details.configuration.reset
+Сбрасывает настроек карточки сделок
+crm.deal.details.configuration.set
+Позволяет установить настройки карточки сделок
+crm.deal.details.configuration.forceCommonScopeForAll
+Принудительно устанавливает общую карточку сделок для всех пользователей
+
+
+crm.deal.details.configuration.get
+
+
+Получает настройки карточки сделок
+
+
+crm.deal.details.configuration.reset
+
+
+Сбрасывает настроек карточки сделок
+
+
+crm.deal.details.configuration.set
+
+
+Позволяет установить настройки карточки сделок
+
+
+crm.deal.details.configuration.forceCommonScopeForAll
+
+
+Принудительно устанавливает общую карточку сделок для всех пользователей
+
+
+Метод
+Описание
+crm.deal.add
+Создает новую сделку
+crm.deal.update
+Изменяет сделку
+crm.deal.get
+Возвращает сделку по идентификатору
+crm.deal.list
+Возвращает список сделок по фильтру
+crm.deal.delete
+Удаляет сделку и все связанные с ней объекты
+crm.deal.fields
+Возвращает описание полей сделки
+crm.deal.productrows.set
+Добавляет товары в сделку
+crm.deal.productrows.get
+Возвращает товары сделки
+
+
+
+
+
+Метод
+Описание
+crm.deal.recurring.add
+Создает новую регулярную сделку
+crm.deal.recurring.fields
+Возвращает список полей шаблона регулярной сделки
+crm.deal.recurring.expose
+Создает новую сделку из шаблона
+crm.deal.recurring.update
+Изменяет существующие настройки для шаблона регулярной сделки
+crm.deal.recurring.get
+Получает поля настройки шаблона регулярной сделки по Id
+crm.deal.recurring.list
+Получает список настроек шаблонов регулярных сделок
+crm.deal.recurring.delete
+Удаляет существующие настройки для шаблона регулярной сделки
+
+
+
+
+
+Метод
+Описание
+crm.deal.userfield.add
+Создает новое пользовательское поле для сделок
+crm.deal.userfield.update
+Изменяет существующее пользовательское поле сделок
+crm.deal.userfield.get
+Получает пользовательское поле сделок по Id
+crm.deal.userfield.list
+Получает списка пользовательских полей сделок
+crm.deal.userfield.delete
+Удаляет пользовательское поле сделок
+
+
+
+
+
+Метод
+Описание
+crm.deal.contact.add
+Добавляет контакт к сделке
+crm.deal.contact.items.set
+Добавляет несколько контактов к сделке
+crm.deal.contact.fields
+Возвращает поля связи сделка-контакт
+crm.deal.contact.items.get
+Получает набор контактов, связанных со сделкой
+crm.deal.contact.delete
+Удаляет контакт из указанной сделки
+crm.deal.contact.items.delete
+Удаляет набор контактов, связанных с указанной сделкой
+
+
+Метод
+Описание
+crm.deal.details.configuration.get
+Получает настройки карточки сделок
+crm.deal.details.configuration.reset
+Сбрасывает настроек карточки сделок
+crm.deal.details.configuration.set
+Позволяет установить настройки карточки сделок
+crm.deal.details.configuration.forceCommonScopeForAll
+Принудительно устанавливает общую карточку сделок для всех пользователей
+
+
+
+================================================================================
+Обзор CRM
+URL: https://apidocs.bitrix24.ru/api-reference/crm/index.html
+================================================================================
+
+Справочник API
+Инструменты и сценарии
+Типы данных и форматы параметров
+Скоупы методов
+Виджеты
+REST 3.0
+События
+Общие методы и события
+BIconnector
+CoPilot
+CRM
+Объекты и методы CRM
+Типы данных и структура объектов в REST API CRM
+Поля основных объектов CRM
+Частые кейсы и туториалы
+Определить текущий режим работы CRM
+Универсальные методы CRM
+Сделки
+Лиды
+Контакты
+Компании
+Коммерческие предложения
+Реквизиты
+Таймлайн и Дела
+Список обзвона
+Поиск и обработка дубликатов в CRM
+Справочники
+Валюты
+Генератор документов
+Цифровые рабочие места
+Автоматизация и триггеры
+Вспомогательные объекты
+Устаревшие методы CRM
+Получить историю движения по стадиям
+Бизнес-процессы и роботы
+Вайб
+Генератор документов
+Диск
+Задачи
+Интернет-магазин
+Календарь
+Лента новостей
+Онлайн-запись
+Опросы, голосования
+Открытые линии
+Платежные системы
+Подпись
+Пользователи
+Пользовательские соглашения
+Почтовые сервисы
+Провайдеры сообщений, СМС-провайдеры
+Рабочие группы и проекты
+Сайты и магазины
+Структура компании
+Телефония
+Торговый каталог
+Универсальные списки
+Учет рабочего времени
+Хранилище данных
+Чаты
+Чат-боты
+Устаревшие методы
+Как работать с файлами
+
+
+CRM
+Объекты и методы CRM
+Типы данных и структура объектов в REST API CRM
+Поля основных объектов CRM
+Частые кейсы и туториалы
+Определить текущий режим работы CRM
+Универсальные методы CRM
+Сделки
+Лиды
+Контакты
+Компании
+Коммерческие предложения
+Реквизиты
+Таймлайн и Дела
+Список обзвона
+Поиск и обработка дубликатов в CRM
+Справочники
+Валюты
+Генератор документов
+Цифровые рабочие места
+Автоматизация и триггеры
+Вспомогательные объекты
+Устаревшие методы CRM
+Получить историю движения по стадиям
+
+
+Сделки
+
+
+Мы еще обновляем эту страницу
+
+
+Тут может не хватать некоторых данных — дополним в ближайшее время
+
+
+CRM - один из наиболее функциональных инструментов Битрикс. Для эффективного использования REST API очень рекомендуется изучить функционал продукта и основные пользовательские сценарии. Понимание взаимосвязей между объектами CRM упростить поиск и использование тех средств REST API, которые потребуются для реализации нужного функционала.
+
+
+Текущий раздел документации включает в себя основные разделы:
+
+
+Универсальные методы
+
+
+Таймлайн и дела
+
+
+Раздел "Универсальные методы" включает в себя очень большое количество методов, которые могут быть использованы для разных объектов CRM - сделок, лидов, контактов и т.д.
+
+
+Рекомендуется использовать универсальные методы вместо отдельных методов для сделок или лидов, например. И только если универсальные методы не позволяют решить какую-то задачу, которая решается только специализированными методами конкретного типа объектов, тогда стоит обращаться к спциализированным разделам.
+
+
+Смарт-процессы в документации описаны как "пользовательские типы объектов CRM", поскольку, фактически, позволяют создавать обьекты, функционирующие наравне со сделками, лидами и прочими "стандартными" объектами.
+
+
+Не рекомендуется использовать методы, описанные в разделе "Устаревшие". Они продолжают функционировать, но их функционал уже не учитывает появляющиеся обновления.
+
+
+
+================================================================================
+Инструменты Битрикс24, доступные для разработчиков
+URL: https://apidocs.bitrix24.ru/api-reference/index.html
+================================================================================
+
+Справочник API
+Инструменты и сценарии
+Типы данных и форматы параметров
+Скоупы методов
+Виджеты
+REST 3.0
+События
+Общие методы и события
+BIconnector
+CoPilot
+CRM
+Бизнес-процессы и роботы
+Вайб
+Генератор документов
+Диск
+Задачи
+Интернет-магазин
+Календарь
+Лента новостей
+Онлайн-запись
+Опросы, голосования
+Открытые линии
+Платежные системы
+Подпись
+Пользователи
+Пользовательские соглашения
+Почтовые сервисы
+Провайдеры сообщений, СМС-провайдеры
+Рабочие группы и проекты
+Сайты и магазины
+Структура компании
+Телефония
+Торговый каталог
+Универсальные списки
+Учет рабочего времени
+Хранилище данных
+Чаты
+Чат-боты
+Устаревшие методы
+Как работать с файлами
+
+
+Битрикс24 - это целый набор связанных бизнес инструментов. Глубокая интеграция между ними и единый REST API позволяет создавать максимально гибкие сценарии автоматизации.
+
+
+Основные инструменты, доступные через REST API, можно разделить на следующие основные разделы:
+
+
+Понимая, какие потребности вам нужны для реализации необходимого сценария, вы сможете найти описание методов этих инструментов в документации.
+
+
+Важно уметь использовать готовый функционал Битрикс24, избавляясь от необходимости писать всё с нуля. Важно уметь искать новые сценарии взаимодействия между существующими инструментами, входящими в состав Битрикс24. Именно такие сценарии открывают перед вами огромные возможности и при этом могут оказаться достаточно простыми в технической реализации.
+
+
+Битрикс24 - комплексный продукт, объединяющий много различных инструментов, интегрированных между собой. Такая интеграция даёт разработчикам возможность предлагать пользователям законченные бизнес-сценарии с использованием нескольких инструментов.
+
+
+Справочник API содержит описание доступных методов, событий и виджетов соответствующих инструментов Битрикс24.
+
+
+BIconnector: обзор методов
+
+
+Обзор CRM
+
+
+AI в Битрикс24
+
+
+Бизнес-процессы
+
+
+Календарь: обзор методов
+
+
+Структура компании: обзор методов
+
+
+Пользовательские соглашения: обзор методов
+
+
+Провайдеры сообщений, SMS-провайдеры
+
