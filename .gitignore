@@ -24,4 +24,10 @@ bot.db
 # Кэши Python
 __pycache__/
 *.pyc
+.env
+logs/*
+bot.log
+*.log
+.vscode/
+.idea/
 .vscode-server/
